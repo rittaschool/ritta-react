@@ -18,10 +18,10 @@ export class Posts extends Component {
             </div>
             <div class="section-header-breadcrumb">
               <div class="breadcrumb-item active">
-                <a href="#">Dashboard</a>
+                <a href="/">Dashboard</a>
               </div>
               <div class="breadcrumb-item">
-                <a href="#">Posts</a>
+                <a href="/">Posts</a>
               </div>
               <div class="breadcrumb-item">All Posts</div>
             </div>
@@ -38,22 +38,22 @@ export class Posts extends Component {
                   <div class="card-body">
                     <ul class="nav nav-pills">
                       <li class="nav-item">
-                        <a class="nav-link active" href="#">
+                        <a class="nav-link active" href="/">
                           All <span class="badge badge-white">5</span>
                         </a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">
+                        <a class="nav-link" href="/">
                           Draft <span class="badge badge-primary">1</span>
                         </a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">
+                        <a class="nav-link" href="/">
                           Pending <span class="badge badge-primary">1</span>
                         </a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">
+                        <a class="nav-link" href="/">
                           Trash <span class="badge badge-primary">0</span>
                         </a>
                       </li>
@@ -142,21 +142,21 @@ export class Posts extends Component {
                           <td>
                             Laravel 5 Tutorial: Introduction
                             <div class="table-links">
-                              <a href="#">View</a>
+                              <a href="/">View</a>
                               <div class="bullet"></div>
-                              <a href="#">Edit</a>
+                              <a href="/">Edit</a>
                               <div class="bullet"></div>
-                              <a href="#" class="text-danger">
+                              <a href="/" class="text-danger">
                                 Trash
                               </a>
                             </div>
                           </td>
                           <td>
-                            <a href="#">Web Developer</a>,
-                            <a href="#">Tutorial</a>
+                            <a href="/">Web Developer</a>,
+                            <a href="/">Tutorial</a>
                           </td>
                           <td>
-                            <a href="#">
+                            <a href="/">
                               <img
                                 alt="image"
                                 src="../assets/img/avatar/avatar-5.png"
@@ -195,21 +195,21 @@ export class Posts extends Component {
                           <td>
                             Laravel 5 Tutorial: Installing
                             <div class="table-links">
-                              <a href="#">View</a>
+                              <a href="/">View</a>
                               <div class="bullet"></div>
-                              <a href="#">Edit</a>
+                              <a href="/">Edit</a>
                               <div class="bullet"></div>
-                              <a href="#" class="text-danger">
+                              <a href="/" class="text-danger">
                                 Trash
                               </a>
                             </div>
                           </td>
                           <td>
-                            <a href="#">Web Developer</a>,
-                            <a href="#">Tutorial</a>
+                            <a href="/">Web Developer</a>,
+                            <a href="/">Tutorial</a>
                           </td>
                           <td>
-                            <a href="#">
+                            <a href="/">
                               <img
                                 alt="image"
                                 src="../assets/img/avatar/avatar-5.png"
@@ -248,21 +248,21 @@ export class Posts extends Component {
                           <td>
                             Laravel 5 Tutorial: MVC
                             <div class="table-links">
-                              <a href="#">View</a>
+                              <a href="/">View</a>
                               <div class="bullet"></div>
-                              <a href="#">Edit</a>
+                              <a href="/">Edit</a>
                               <div class="bullet"></div>
-                              <a href="#" class="text-danger">
+                              <a href="/" class="text-danger">
                                 Trash
                               </a>
                             </div>
                           </td>
                           <td>
-                            <a href="#">Web Developer</a>,
-                            <a href="#">Tutorial</a>
+                            <a href="/">Web Developer</a>,
+                            <a href="/">Tutorial</a>
                           </td>
                           <td>
-                            <a href="#">
+                            <a href="/">
                               <img
                                 alt="image"
                                 src="../assets/img/avatar/avatar-5.png"
@@ -301,21 +301,21 @@ export class Posts extends Component {
                           <td>
                             Laravel 5 Tutorial: CRUD
                             <div class="table-links">
-                              <a href="#">View</a>
+                              <a href="/">View</a>
                               <div class="bullet"></div>
-                              <a href="#">Edit</a>
+                              <a href="/">Edit</a>
                               <div class="bullet"></div>
-                              <a href="#" class="text-danger">
+                              <a href="/" class="text-danger">
                                 Trash
                               </a>
                             </div>
                           </td>
                           <td>
-                            <a href="#">Web Developer</a>,
-                            <a href="#">Tutorial</a>
+                            <a href="/">Web Developer</a>,
+                            <a href="/">Tutorial</a>
                           </td>
                           <td>
-                            <a href="#">
+                            <a href="/">
                               <img
                                 alt="image"
                                 src="../assets/img/avatar/avatar-5.png"
@@ -354,21 +354,21 @@ export class Posts extends Component {
                           <td>
                             Laravel 5 Tutorial: Deployment
                             <div class="table-links">
-                              <a href="#">View</a>
+                              <a href="/">View</a>
                               <div class="bullet"></div>
-                              <a href="#">Edit</a>
+                              <a href="/">Edit</a>
                               <div class="bullet"></div>
-                              <a href="#" class="text-danger">
+                              <a href="/" class="text-danger">
                                 Trash
                               </a>
                             </div>
                           </td>
                           <td>
-                            <a href="#">Web Developer</a>,
-                            <a href="#">Tutorial</a>
+                            <a href="/">Web Developer</a>,
+                            <a href="/">Tutorial</a>
                           </td>
                           <td>
-                            <a href="#">
+                            <a href="/">
                               <img
                                 alt="image"
                                 src="../assets/img/avatar/avatar-5.png"
@@ -393,28 +393,28 @@ export class Posts extends Component {
                       <nav>
                         <ul class="pagination">
                           <li class="page-item disabled">
-                            <a class="page-link" href="#" aria-label="Previous">
+                            <a class="page-link" href="/" aria-label="Previous">
                               <span aria-hidden="true">&laquo;</span>
                               <span class="sr-only">Previous</span>
                             </a>
                           </li>
                           <li class="page-item active">
-                            <a class="page-link" href="#">
+                            <a class="page-link" href="/">
                               1
                             </a>
                           </li>
                           <li class="page-item">
-                            <a class="page-link" href="#">
+                            <a class="page-link" href="/">
                               2
                             </a>
                           </li>
                           <li class="page-item">
-                            <a class="page-link" href="#">
+                            <a class="page-link" href="/">
                               3
                             </a>
                           </li>
                           <li class="page-item">
-                            <a class="page-link" href="#" aria-label="Next">
+                            <a class="page-link" href="/" aria-label="Next">
                               <span aria-hidden="true">&raquo;</span>
                               <span class="sr-only">Next</span>
                             </a>

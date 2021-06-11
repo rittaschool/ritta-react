@@ -9,10 +9,10 @@ export class CompWizard extends Component {
             <h1>Wizard</h1>
             <div class="section-header-breadcrumb">
               <div class="breadcrumb-item active">
-                <a href="#">Dashboard</a>
+                <a href="/">Dashboard</a>
               </div>
               <div class="breadcrumb-item">
-                <a href="#">Components</a>
+                <a href="/">Components</a>
               </div>
               <div class="breadcrumb-item">Wizard</div>
             </div>
@@ -284,7 +284,7 @@ export class CompWizard extends Component {
                           <div class="col-md-4"></div>
                           <div class="col-lg-4 col-md-6 text-right">
                             <a
-                              href="#"
+                              href="/"
                               class="btn btn-icon icon-right btn-primary"
                             >
                               Next <i class="fas fa-arrow-right"></i>

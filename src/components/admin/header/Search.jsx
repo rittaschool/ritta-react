@@ -7,8 +7,8 @@ export class Search extends Component {
       comp = obj.children.map((data, idata) => {
         return (
           <div key={`${idata}${obj.id}`} className="search-item">
-            <a href="#">{data.title}</a>
-            <a href="#" className="search-close">
+            <a href="/">{data.title}</a>
+            <a href="/" className="search-close">
               <i className="fas fa-times" />
             </a>
           </div>
@@ -18,7 +18,7 @@ export class Search extends Component {
       comp = obj.children.map((data, idata) => {
         return (
           <div key={`${idata}${obj.id}`} className="search-item">
-            <a href="#">
+            <a href="/">
               <img
                 className="mr-3 rounded"
                 width="30"
@@ -34,7 +34,7 @@ export class Search extends Component {
       comp = obj.children.map((data, idata) => {
         return (
           <div key={`${idata}${obj.id}`} className="search-item">
-            <a href="#">
+            <a href="/">
               <div className={`search-icon ${data.backCls} text-white mr-3`}>
                 <i className={data.icode} />
               </div>
@@ -57,8 +57,8 @@ export class Search extends Component {
           <input
             className="form-control"
             type="search"
-            placeholder="Search"
-            aria-label="Search"
+            placeholder="Haku"
+            aria-label="Haku"
             data-width="250"
           />
           <button className="btn" type="submit">

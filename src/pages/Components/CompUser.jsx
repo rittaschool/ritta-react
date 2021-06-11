@@ -16,10 +16,10 @@ export class CompUser extends Component {
             <h1>User</h1>
             <div class="section-header-breadcrumb">
               <div class="breadcrumb-item active">
-                <a href="#">Dashboard</a>
+                <a href="/">Dashboard</a>
               </div>
               <div class="breadcrumb-item">
-                <a href="#">Components</a>
+                <a href="/">Components</a>
               </div>
               <div class="breadcrumb-item">User</div>
             </div>
@@ -43,7 +43,7 @@ export class CompUser extends Component {
                       />
                       <div class="clearfix"></div>
                       <a
-                        href="#"
+                        href="/"
                         class="btn btn-primary mt-3 follow-btn"
                         data-follow-action="alert('follow clicked');"
                         data-unfollow-action="alert('unfollow clicked');"
@@ -53,7 +53,7 @@ export class CompUser extends Component {
                     </div>
                     <div class="author-box-details">
                       <div class="author-box-name">
-                        <a href="#">Hasan Basri</a>
+                        <a href="/">Hasan Basri</a>
                       </div>
                       <div class="author-box-job">Web Developer</div>
                       <div class="author-box-description">
@@ -70,24 +70,24 @@ export class CompUser extends Component {
                           Follow Hasan On
                         </div>
                       </div>
-                      <a href="#" class="btn btn-social-icon mr-1 btn-facebook">
+                      <a href="/" class="btn btn-social-icon mr-1 btn-facebook">
                         <i class="fab fa-facebook-f"></i>
                       </a>
-                      <a href="#" class="btn btn-social-icon mr-1 btn-twitter">
+                      <a href="/" class="btn btn-social-icon mr-1 btn-twitter">
                         <i class="fab fa-twitter"></i>
                       </a>
-                      <a href="#" class="btn btn-social-icon mr-1 btn-github">
+                      <a href="/" class="btn btn-social-icon mr-1 btn-github">
                         <i class="fab fa-github"></i>
                       </a>
                       <a
-                        href="#"
+                        href="/"
                         class="btn btn-social-icon mr-1 btn-instagram"
                       >
                         <i class="fab fa-instagram"></i>
                       </a>
                       <div class="w-100 d-sm-none"></div>
                       <div class="float-right mt-sm-0 mt-3">
-                        <a href="#" class="btn">
+                        <a href="/" class="btn">
                           View Posts <i class="fas fa-chevron-right"></i>
                         </a>
                       </div>
@@ -98,7 +98,7 @@ export class CompUser extends Component {
                   <div class="card-header">
                     <h4>Users</h4>
                     <div class="card-header-action">
-                      <a href="#" class="btn btn-danger btn-icon icon-right">
+                      <a href="/" class="btn btn-danger btn-icon icon-right">
                         View All <i class="fas fa-chevron-right"></i>
                       </a>
                     </div>
@@ -264,16 +264,16 @@ export class CompUser extends Component {
                     <div class="font-weight-bold mb-2 text-small">
                       Follow Hasan On
                     </div>
-                    <a href="#" class="btn btn-social-icon mr-1 btn-facebook">
+                    <a href="/" class="btn btn-social-icon mr-1 btn-facebook">
                       <i class="fab fa-facebook-f"></i>
                     </a>
-                    <a href="#" class="btn btn-social-icon mr-1 btn-twitter">
+                    <a href="/" class="btn btn-social-icon mr-1 btn-twitter">
                       <i class="fab fa-twitter"></i>
                     </a>
-                    <a href="#" class="btn btn-social-icon mr-1 btn-github">
+                    <a href="/" class="btn btn-social-icon mr-1 btn-github">
                       <i class="fab fa-github"></i>
                     </a>
-                    <a href="#" class="btn btn-social-icon mr-1 btn-instagram">
+                    <a href="/" class="btn btn-social-icon mr-1 btn-instagram">
                       <i class="fab fa-instagram"></i>
                     </a>
                   </div>
@@ -464,11 +464,11 @@ export class CompUser extends Component {
                             laborum.
                           </div>
                           <div class="media-links">
-                            <a href="#">View</a>
+                            <a href="/">View</a>
                             <div class="bullet"></div>
-                            <a href="#">Edit</a>
+                            <a href="/">Edit</a>
                             <div class="bullet"></div>
-                            <a href="#" class="text-danger">
+                            <a href="/" class="text-danger">
                               Trash
                             </a>
                           </div>
@@ -495,11 +495,11 @@ export class CompUser extends Component {
                             laborum.
                           </div>
                           <div class="media-links">
-                            <a href="#">View</a>
+                            <a href="/">View</a>
                             <div class="bullet"></div>
-                            <a href="#">Edit</a>
+                            <a href="/">Edit</a>
                             <div class="bullet"></div>
-                            <a href="#" class="text-danger">
+                            <a href="/" class="text-danger">
                               Trash
                             </a>
                           </div>
@@ -524,11 +524,11 @@ export class CompUser extends Component {
                             Excepteur sint occaecat cupidatat non proident
                           </div>
                           <div class="media-links">
-                            <a href="#">View</a>
+                            <a href="/">View</a>
                             <div class="bullet"></div>
-                            <a href="#">Edit</a>
+                            <a href="/">Edit</a>
                             <div class="bullet"></div>
-                            <a href="#" class="text-danger">
+                            <a href="/" class="text-danger">
                               Trash
                             </a>
                           </div>
@@ -566,7 +566,7 @@ export class CompUser extends Component {
                           </div>
                         </div>
                         <div class="media-cta">
-                          <a href="#" class="btn btn-outline-primary">
+                          <a href="/" class="btn btn-outline-primary">
                             Detail
                           </a>
                         </div>
@@ -592,7 +592,7 @@ export class CompUser extends Component {
                           </div>
                         </div>
                         <div class="media-cta">
-                          <a href="#" class="btn btn-outline-primary">
+                          <a href="/" class="btn btn-outline-primary">
                             Detail
                           </a>
                         </div>
@@ -618,7 +618,7 @@ export class CompUser extends Component {
                           </div>
                         </div>
                         <div class="media-cta">
-                          <a href="#" class="btn btn-outline-primary">
+                          <a href="/" class="btn btn-outline-primary">
                             Detail
                           </a>
                         </div>

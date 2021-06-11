@@ -8,10 +8,10 @@ export default function BootstrapNavbar() {
           <h1>Navbar</h1>
           <div class="section-header-breadcrumb">
             <div class="breadcrumb-item active">
-              <a href="#">Dashboard</a>
+              <a href="/">Dashboard</a>
             </div>
             <div class="breadcrumb-item">
-              <a href="#">Bootstrap Components</a>
+              <a href="/">Bootstrap Components</a>
             </div>
             <div class="breadcrumb-item">Navbar</div>
           </div>
@@ -33,7 +33,7 @@ export default function BootstrapNavbar() {
                 </div>
                 <div class="card-body">
                   <nav class="navbar bg-primary">
-                    <a class="navbar-brand" href="#">
+                    <a class="navbar-brand" href="/">
                       My App
                     </a>
                   </nav>
@@ -45,7 +45,7 @@ export default function BootstrapNavbar() {
                 </div>
                 <div class="card-body">
                   <nav class="navbar navbar-expand-lg bg-primary">
-                    <a class="navbar-brand" href="#">
+                    <a class="navbar-brand" href="/">
                       My App
                     </a>
                     <button
@@ -62,22 +62,22 @@ export default function BootstrapNavbar() {
                     <div class="collapse navbar-collapse" id="navbarNav">
                       <ul class="navbar-nav">
                         <li class="nav-item active">
-                          <a class="nav-link" href="#">
+                          <a class="nav-link" href="/">
                             Home <span class="sr-only">(current)</span>
                           </a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="#">
+                          <a class="nav-link" href="/">
                             Features
                           </a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="#">
+                          <a class="nav-link" href="/">
                             Pricing
                           </a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link disabled" href="#">
+                          <a class="nav-link disabled" href="/">
                             Disabled
                           </a>
                         </li>
@@ -94,7 +94,7 @@ export default function BootstrapNavbar() {
                 </div>
                 <div class="card-body">
                   <nav class="navbar bg-primary">
-                    <a class="navbar-brand" href="#">
+                    <a class="navbar-brand" href="/">
                       My App
                     </a>
                     <form class="form-inline">
@@ -117,7 +117,7 @@ export default function BootstrapNavbar() {
                 </div>
                 <div class="card-body">
                   <nav class="navbar navbar-expand-lg bg-primary">
-                    <a class="navbar-brand" href="#">
+                    <a class="navbar-brand" href="/">
                       My App
                     </a>
                     <button
@@ -134,17 +134,17 @@ export default function BootstrapNavbar() {
                     <div class="collapse navbar-collapse" id="navbarText">
                       <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
-                          <a class="nav-link" href="#">
+                          <a class="nav-link" href="/">
                             Home <span class="sr-only">(current)</span>
                           </a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="#">
+                          <a class="nav-link" href="/">
                             Features
                           </a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="#">
+                          <a class="nav-link" href="/">
                             Pricing
                           </a>
                         </li>

@@ -15,7 +15,7 @@ export class Profile extends Component {
             <h1>Profile</h1>
             <div class="section-header-breadcrumb">
               <div class="breadcrumb-item active">
-                <a href="#">Dashboard</a>
+                <a href="/">Dashboard</a>
               </div>
               <div class="breadcrumb-item">Profile</div>
             </div>
@@ -65,16 +65,16 @@ export class Profile extends Component {
                   </div>
                   <div class="card-footer text-center">
                     <div class="font-weight-bold mb-2">Follow Ujang On</div>
-                    <a href="#" class="btn btn-social-icon btn-facebook mr-1">
+                    <a href="/" class="btn btn-social-icon btn-facebook mr-1">
                       <i class="fab fa-facebook-f"></i>
                     </a>
-                    <a href="#" class="btn btn-social-icon btn-twitter mr-1">
+                    <a href="/" class="btn btn-social-icon btn-twitter mr-1">
                       <i class="fab fa-twitter"></i>
                     </a>
-                    <a href="#" class="btn btn-social-icon btn-github mr-1">
+                    <a href="/" class="btn btn-social-icon btn-github mr-1">
                       <i class="fab fa-github"></i>
                     </a>
-                    <a href="#" class="btn btn-social-icon btn-instagram">
+                    <a href="/" class="btn btn-social-icon btn-instagram">
                       <i class="fab fa-instagram"></i>
                     </a>
                   </div>

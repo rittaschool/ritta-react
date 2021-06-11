@@ -18,10 +18,10 @@ export class CompArticle extends Component {
             <h1>Article</h1>
             <div class="section-header-breadcrumb">
               <div class="breadcrumb-item active">
-                <a href="#">Dashboard</a>
+                <a href="/">Dashboard</a>
               </div>
               <div class="breadcrumb-item">
-                <a href="#">Components</a>
+                <a href="/">Components</a>
               </div>
               <div class="breadcrumb-item">Article</div>
             </div>
@@ -43,7 +43,7 @@ export class CompArticle extends Component {
                     ></div>
                     <div class="article-title">
                       <h2>
-                        <a href="#">
+                        <a href="/">
                           Excepteur sint occaecat cupidatat non proident
                         </a>
                       </h2>
@@ -55,7 +55,7 @@ export class CompArticle extends Component {
                       esse cillum dolore eu fugiat nulla pariatur.{" "}
                     </p>
                     <div class="article-cta">
-                      <a href="#" class="btn btn-primary">
+                      <a href="/" class="btn btn-primary">
                         Read More
                       </a>
                     </div>
@@ -71,7 +71,7 @@ export class CompArticle extends Component {
                     ></div>
                     <div class="article-title">
                       <h2>
-                        <a href="#">
+                        <a href="/">
                           Excepteur sint occaecat cupidatat non proident
                         </a>
                       </h2>
@@ -83,7 +83,7 @@ export class CompArticle extends Component {
                       esse cillum dolore eu fugiat nulla pariatur.{" "}
                     </p>
                     <div class="article-cta">
-                      <a href="#" class="btn btn-primary">
+                      <a href="/" class="btn btn-primary">
                         Read More
                       </a>
                     </div>
@@ -99,7 +99,7 @@ export class CompArticle extends Component {
                     ></div>
                     <div class="article-title">
                       <h2>
-                        <a href="#">
+                        <a href="/">
                           Excepteur sint occaecat cupidatat non proident
                         </a>
                       </h2>
@@ -111,7 +111,7 @@ export class CompArticle extends Component {
                       esse cillum dolore eu fugiat nulla pariatur.{" "}
                     </p>
                     <div class="article-cta">
-                      <a href="#" class="btn btn-primary">
+                      <a href="/" class="btn btn-primary">
                         Read More
                       </a>
                     </div>
@@ -127,7 +127,7 @@ export class CompArticle extends Component {
                     ></div>
                     <div class="article-title">
                       <h2>
-                        <a href="#">
+                        <a href="/">
                           Excepteur sint occaecat cupidatat non proident
                         </a>
                       </h2>
@@ -139,7 +139,7 @@ export class CompArticle extends Component {
                       esse cillum dolore eu fugiat nulla pariatur.{" "}
                     </p>
                     <div class="article-cta">
-                      <a href="#" class="btn btn-primary">
+                      <a href="/" class="btn btn-primary">
                         Read More
                       </a>
                     </div>
@@ -166,7 +166,7 @@ export class CompArticle extends Component {
                   <div class="article-details">
                     <div class="article-title">
                       <h2>
-                        <a href="#">
+                        <a href="/">
                           Excepteur sint occaecat cupidatat non proident
                         </a>
                       </h2>
@@ -176,7 +176,7 @@ export class CompArticle extends Component {
                       esse cillum dolore eu fugiat nulla pariatur.{" "}
                     </p>
                     <div class="article-cta">
-                      <a href="#">
+                      <a href="/">
                         Read More <i class="fas fa-chevron-right"></i>
                       </a>
                     </div>
@@ -194,7 +194,7 @@ export class CompArticle extends Component {
                   <div class="article-details">
                     <div class="article-title">
                       <h2>
-                        <a href="#">
+                        <a href="/">
                           Excepteur sint occaecat cupidatat non proident
                         </a>
                       </h2>
@@ -204,7 +204,7 @@ export class CompArticle extends Component {
                       esse cillum dolore eu fugiat nulla pariatur.{" "}
                     </p>
                     <div class="article-cta">
-                      <a href="#">
+                      <a href="/">
                         Read More <i class="fas fa-chevron-right"></i>
                       </a>
                     </div>
@@ -222,7 +222,7 @@ export class CompArticle extends Component {
                   <div class="article-details">
                     <div class="article-title">
                       <h2>
-                        <a href="#">
+                        <a href="/">
                           Excepteur sint occaecat cupidatat non proident
                         </a>
                       </h2>
@@ -232,7 +232,7 @@ export class CompArticle extends Component {
                       esse cillum dolore eu fugiat nulla pariatur.{" "}
                     </p>
                     <div class="article-cta">
-                      <a href="#">
+                      <a href="/">
                         Read More <i class="fas fa-chevron-right"></i>
                       </a>
                     </div>
@@ -250,7 +250,7 @@ export class CompArticle extends Component {
                   <div class="article-details">
                     <div class="article-title">
                       <h2>
-                        <a href="#">
+                        <a href="/">
                           Excepteur sint occaecat cupidatat non proident
                         </a>
                       </h2>
@@ -260,7 +260,7 @@ export class CompArticle extends Component {
                       esse cillum dolore eu fugiat nulla pariatur.{" "}
                     </p>
                     <div class="article-cta">
-                      <a href="#">
+                      <a href="/">
                         Read More <i class="fas fa-chevron-right"></i>
                       </a>
                     </div>
@@ -280,12 +280,12 @@ export class CompArticle extends Component {
                   </div>
                   <div class="article-details">
                     <div class="article-category">
-                      <a href="#">News</a> <div class="bullet"></div>{" "}
-                      <a href="#">5 Days</a>
+                      <a href="/">News</a> <div class="bullet"></div>{" "}
+                      <a href="/">5 Days</a>
                     </div>
                     <div class="article-title">
                       <h2>
-                        <a href="#">
+                        <a href="/">
                           Excepteur sint occaecat cupidatat non proident
                         </a>
                       </h2>
@@ -301,7 +301,7 @@ export class CompArticle extends Component {
                       />
                       <div class="article-user-details">
                         <div class="user-detail-name">
-                          <a href="#">Hasan Basri</a>
+                          <a href="/">Hasan Basri</a>
                         </div>
                         <div class="text-job">Web Developer</div>
                       </div>
@@ -319,12 +319,12 @@ export class CompArticle extends Component {
                   </div>
                   <div class="article-details">
                     <div class="article-category">
-                      <a href="#">News</a> <div class="bullet"></div>{" "}
-                      <a href="#">5 Days</a>
+                      <a href="/">News</a> <div class="bullet"></div>{" "}
+                      <a href="/">5 Days</a>
                     </div>
                     <div class="article-title">
                       <h2>
-                        <a href="#">
+                        <a href="/">
                           Excepteur sint occaecat cupidatat non proident
                         </a>
                       </h2>
@@ -340,7 +340,7 @@ export class CompArticle extends Component {
                       />
                       <div class="article-user-details">
                         <div class="user-detail-name">
-                          <a href="#">Rizal Fakhri</a>
+                          <a href="/">Rizal Fakhri</a>
                         </div>
                         <div class="text-job">UX Designer</div>
                       </div>
@@ -358,12 +358,12 @@ export class CompArticle extends Component {
                   </div>
                   <div class="article-details">
                     <div class="article-category">
-                      <a href="#">News</a> <div class="bullet"></div>{" "}
-                      <a href="#">5 Days</a>
+                      <a href="/">News</a> <div class="bullet"></div>{" "}
+                      <a href="/">5 Days</a>
                     </div>
                     <div class="article-title">
                       <h2>
-                        <a href="#">
+                        <a href="/">
                           Excepteur sint occaecat cupidatat non proident
                         </a>
                       </h2>
@@ -379,7 +379,7 @@ export class CompArticle extends Component {
                       />
                       <div class="article-user-details">
                         <div class="user-detail-name">
-                          <a href="#">Irwansyah Saputra</a>
+                          <a href="/">Irwansyah Saputra</a>
                         </div>
                         <div class="text-job">Mobile Developer</div>
                       </div>

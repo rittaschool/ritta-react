@@ -13,10 +13,10 @@ export class Toastr extends Component {
             <h1>Toastr</h1>
             <div class="section-header-breadcrumb">
               <div class="breadcrumb-item active">
-                <a href="#">Dashboard</a>
+                <a href="/">Dashboard</a>
               </div>
               <div class="breadcrumb-item">
-                <a href="#">Modules</a>
+                <a href="/">Modules</a>
               </div>
               <div class="breadcrumb-item">Toastr</div>
             </div>

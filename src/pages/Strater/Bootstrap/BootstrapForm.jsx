@@ -20,10 +20,10 @@ export class BootstrapForm extends Component {
             <h1>Form</h1>
             <div className="section-header-breadcrumb">
               <div className="breadcrumb-item active">
-                <a href="#">Dashboard</a>
+                <a href="/">Dashboard</a>
               </div>
               <div className="breadcrumb-item">
-                <a href="#">Bootstrap Components</a>
+                <a href="/">Bootstrap Components</a>
               </div>
               <div className="breadcrumb-item">Form</div>
             </div>

@@ -8,10 +8,10 @@ export default function BootstrapBreadcrumb() {
           <h1>Breadcrumb</h1>
           <div class="section-header-breadcrumb">
             <div class="breadcrumb-item active">
-              <a href="#">Dashboard</a>
+              <a href="/">Dashboard</a>
             </div>
             <div class="breadcrumb-item">
-              <a href="#">Bootstrap Components</a>
+              <a href="/">Bootstrap Components</a>
             </div>
             <div class="breadcrumb-item">Breadcrumb</div>
           </div>
@@ -41,10 +41,10 @@ export default function BootstrapBreadcrumb() {
                   <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
                       <li class="breadcrumb-item">
-                        <a href="#">Home</a>
+                        <a href="/">Home</a>
                       </li>
                       <li class="breadcrumb-item">
-                        <a href="#">Library</a>
+                        <a href="/">Library</a>
                       </li>
                       <li class="breadcrumb-item active" aria-current="page">
                         Data
@@ -68,12 +68,12 @@ export default function BootstrapBreadcrumb() {
                   <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
                       <li class="breadcrumb-item">
-                        <a href="#">
+                        <a href="/">
                           <i class="fas fa-tachometer-alt"></i> Home
                         </a>
                       </li>
                       <li class="breadcrumb-item">
-                        <a href="#">
+                        <a href="/">
                           <i class="far fa-file"></i> Library
                         </a>
                       </li>
@@ -94,12 +94,12 @@ export default function BootstrapBreadcrumb() {
                   <nav aria-label="breadcrumb">
                     <ol class="breadcrumb bg-primary text-white-all">
                       <li class="breadcrumb-item">
-                        <a href="#">
+                        <a href="/">
                           <i class="fas fa-tachometer-alt"></i> Home
                         </a>
                       </li>
                       <li class="breadcrumb-item">
-                        <a href="#">
+                        <a href="/">
                           <i class="far fa-file"></i> Library
                         </a>
                       </li>
@@ -112,12 +112,12 @@ export default function BootstrapBreadcrumb() {
                   <nav aria-label="breadcrumb">
                     <ol class="breadcrumb bg-warning text-white-all">
                       <li class="breadcrumb-item">
-                        <a href="#">
+                        <a href="/">
                           <i class="fas fa-tachometer-alt"></i> Home
                         </a>
                       </li>
                       <li class="breadcrumb-item">
-                        <a href="#">
+                        <a href="/">
                           <i class="far fa-file"></i> Library
                         </a>
                       </li>
@@ -130,12 +130,12 @@ export default function BootstrapBreadcrumb() {
                   <nav aria-label="breadcrumb">
                     <ol class="breadcrumb bg-success text-white-all">
                       <li class="breadcrumb-item">
-                        <a href="#">
+                        <a href="/">
                           <i class="fas fa-tachometer-alt"></i> Home
                         </a>
                       </li>
                       <li class="breadcrumb-item">
-                        <a href="#">
+                        <a href="/">
                           <i class="far fa-file"></i> Library
                         </a>
                       </li>
@@ -148,12 +148,12 @@ export default function BootstrapBreadcrumb() {
                   <nav aria-label="breadcrumb">
                     <ol class="breadcrumb bg-danger text-white-all">
                       <li class="breadcrumb-item">
-                        <a href="#">
+                        <a href="/">
                           <i class="fas fa-tachometer-alt"></i> Home
                         </a>
                       </li>
                       <li class="breadcrumb-item">
-                        <a href="#">
+                        <a href="/">
                           <i class="far fa-file"></i> Library
                         </a>
                       </li>
@@ -166,12 +166,12 @@ export default function BootstrapBreadcrumb() {
                   <nav aria-label="breadcrumb">
                     <ol class="breadcrumb bg-secondary text-white-all">
                       <li class="breadcrumb-item">
-                        <a href="#">
+                        <a href="/">
                           <i class="fas fa-tachometer-alt"></i> Home
                         </a>
                       </li>
                       <li class="breadcrumb-item">
-                        <a href="#">
+                        <a href="/">
                           <i class="far fa-file"></i> Library
                         </a>
                       </li>
@@ -184,12 +184,12 @@ export default function BootstrapBreadcrumb() {
                   <nav aria-label="breadcrumb">
                     <ol class="breadcrumb bg-dark text-white-all">
                       <li class="breadcrumb-item">
-                        <a href="#">
+                        <a href="/">
                           <i class="fas fa-tachometer-alt"></i> Home
                         </a>
                       </li>
                       <li class="breadcrumb-item">
-                        <a href="#">
+                        <a href="/">
                           <i class="far fa-file"></i> Library
                         </a>
                       </li>

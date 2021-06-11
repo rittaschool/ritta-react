@@ -7,12 +7,12 @@ export class UserDropdown extends Component {
     return (
       <li className="dropdown">
         <a
-          href="#"
+          href="/"
           data-toggle="dropdown"
           className="nav-link dropdown-toggle nav-link-lg nav-link-user"
         >
           <img
-            alt="image"
+            alt="user profile pic"
             src={userDetail.userImg}
             className="rounded-circle mr-1"
           />
@@ -31,7 +31,7 @@ export class UserDropdown extends Component {
                 key={idata}
                 to={data.link}
                 activeStyle={{
-                  color: "#6777ef",
+                  color: "#20bba6",
                 }}
                 exact
                 className="dropdown-item has-icon"
@@ -43,7 +43,7 @@ export class UserDropdown extends Component {
 
           <div className="dropdown-divider" />
           <a
-            href="#"
+            href="/"
             className="dropdown-item has-icon text-danger"
             // onClick={() => {
             //   Auth.logout(() => {

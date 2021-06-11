@@ -8,7 +8,7 @@ export class ToggleData extends Component {
     return (
       <li className="dropdown dropdown-list-toggle">
         <a
-          href="#"
+          href="/"
           data-toggle="dropdown"
           className={`nav-link nav-link-lg ${data.toggleName} beep`}
         >
@@ -18,12 +18,12 @@ export class ToggleData extends Component {
           <div className="dropdown-header">
             {data.headerLeft}
             <div className="float-right">
-              <a href="#">{data.headerRight}</a>
+              <a href="/">{data.headerRight}</a>
             </div>
           </div>
           <ToggleContent data={data} />
           <div className="dropdown-footer text-center">
-            <a href="#">
+            <a href="/">
               {data.bottomMsg}
               <i className={data.bottomMsgCls} />
             </a>

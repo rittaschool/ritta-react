@@ -8,10 +8,10 @@ export default function BootstrapBadge() {
           <h1>Badge</h1>
           <div class="section-header-breadcrumb">
             <div class="breadcrumb-item active">
-              <a href="#">Dashboard</a>
+              <a href="/">Dashboard</a>
             </div>
             <div class="breadcrumb-item">
-              <a href="#">Bootstrap Components</a>
+              <a href="/">Bootstrap Components</a>
             </div>
             <div class="breadcrumb-item">Badge</div>
           </div>
@@ -134,28 +134,28 @@ export default function BootstrapBadge() {
                 </div>
                 <div class="card-body">
                   <div class="badges">
-                    <a href="#" class="badge badge-primary">
+                    <a href="/" class="badge badge-primary">
                       Primary
                     </a>
-                    <a href="#" class="badge badge-secondary">
+                    <a href="/" class="badge badge-secondary">
                       Secondary
                     </a>
-                    <a href="#" class="badge badge-success">
+                    <a href="/" class="badge badge-success">
                       Success
                     </a>
-                    <a href="#" class="badge badge-danger">
+                    <a href="/" class="badge badge-danger">
                       Danger
                     </a>
-                    <a href="#" class="badge badge-warning">
+                    <a href="/" class="badge badge-warning">
                       Warning
                     </a>
-                    <a href="#" class="badge badge-info">
+                    <a href="/" class="badge badge-info">
                       Info
                     </a>
-                    <a href="#" class="badge badge-light">
+                    <a href="/" class="badge badge-light">
                       Light
                     </a>
-                    <a href="#" class="badge badge-dark">
+                    <a href="/" class="badge badge-dark">
                       Dark
                     </a>
                   </div>

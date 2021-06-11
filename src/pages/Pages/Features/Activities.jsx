@@ -8,7 +8,7 @@ export default function Activities() {
           <h1>Activities</h1>
           <div class="section-header-breadcrumb">
             <div class="breadcrumb-item active">
-              <a href="#">Dashboard</a>
+              <a href="/">Dashboard</a>
             </div>
             <div class="breadcrumb-item">Activities</div>
           </div>
@@ -26,24 +26,24 @@ export default function Activities() {
                     <div class="mb-2">
                       <span class="text-job text-primary">2 min ago</span>
                       <span class="bullet"></span>
-                      <a class="text-job" href="#">
+                      <a class="text-job" href="/">
                         View
                       </a>
                       <div class="float-right dropdown">
-                        <a href="#" data-toggle="dropdown">
+                        <a href="/" data-toggle="dropdown">
                           <i class="fas fa-ellipsis-h"></i>
                         </a>
                         <div class="dropdown-menu">
                           <div class="dropdown-title">Options</div>
-                          <a href="#" class="dropdown-item has-icon">
+                          <a href="/" class="dropdown-item has-icon">
                             <i class="fas fa-eye"></i> View
                           </a>
-                          <a href="#" class="dropdown-item has-icon">
+                          <a href="/" class="dropdown-item has-icon">
                             <i class="fas fa-list"></i> Detail
                           </a>
                           <div class="dropdown-divider"></div>
                           <a
-                            href="#"
+                            href="/"
                             class="dropdown-item has-icon text-danger"
                             data-confirm="Wait, wait, wait...|This action can't be undone. Want to take risks?"
                             data-confirm-text-yes="Yes, IDC"
@@ -55,7 +55,7 @@ export default function Activities() {
                     </div>
                     <p>
                       Have commented on the task of "
-                      <a href="#">Responsive design</a>".
+                      <a href="/">Responsive design</a>".
                     </p>
                   </div>
                 </div>
@@ -67,24 +67,24 @@ export default function Activities() {
                     <div class="mb-2">
                       <span class="text-job">1 hour ago</span>
                       <span class="bullet"></span>
-                      <a class="text-job" href="#">
+                      <a class="text-job" href="/">
                         View
                       </a>
                       <div class="float-right dropdown">
-                        <a href="#" data-toggle="dropdown">
+                        <a href="/" data-toggle="dropdown">
                           <i class="fas fa-ellipsis-h"></i>
                         </a>
                         <div class="dropdown-menu">
                           <div class="dropdown-title">Options</div>
-                          <a href="#" class="dropdown-item has-icon">
+                          <a href="/" class="dropdown-item has-icon">
                             <i class="fas fa-eye"></i> View
                           </a>
-                          <a href="#" class="dropdown-item has-icon">
+                          <a href="/" class="dropdown-item has-icon">
                             <i class="fas fa-list"></i> Detail
                           </a>
                           <div class="dropdown-divider"></div>
                           <a
-                            href="#"
+                            href="/"
                             class="dropdown-item has-icon text-danger"
                             data-confirm="Wait, wait, wait...|This action can't be undone. Want to take risks?"
                             data-confirm-text-yes="Yes, IDC"
@@ -96,7 +96,7 @@ export default function Activities() {
                     </div>
                     <p>
                       Moved the task "
-                      <a href="#">
+                      <a href="/">
                         Fix some features that are bugs in the master module
                       </a>
                       " from Progress to Finish.
@@ -111,24 +111,24 @@ export default function Activities() {
                     <div class="mb-2">
                       <span class="text-job">4 hour ago</span>
                       <span class="bullet"></span>
-                      <a class="text-job" href="#">
+                      <a class="text-job" href="/">
                         View
                       </a>
                       <div class="float-right dropdown">
-                        <a href="#" data-toggle="dropdown">
+                        <a href="/" data-toggle="dropdown">
                           <i class="fas fa-ellipsis-h"></i>
                         </a>
                         <div class="dropdown-menu">
                           <div class="dropdown-title">Options</div>
-                          <a href="#" class="dropdown-item has-icon">
+                          <a href="/" class="dropdown-item has-icon">
                             <i class="fas fa-eye"></i> View
                           </a>
-                          <a href="#" class="dropdown-item has-icon">
+                          <a href="/" class="dropdown-item has-icon">
                             <i class="fas fa-list"></i> Detail
                           </a>
                           <div class="dropdown-divider"></div>
                           <a
-                            href="#"
+                            href="/"
                             class="dropdown-item has-icon text-danger"
                             data-confirm="Wait, wait, wait...|This action can't be undone. Want to take risks?"
                             data-confirm-text-yes="Yes, IDC"
@@ -152,24 +152,24 @@ export default function Activities() {
                     <div class="mb-2">
                       <span class="text-job">12 hour ago</span>
                       <span class="bullet"></span>
-                      <a class="text-job" href="#">
+                      <a class="text-job" href="/">
                         View
                       </a>
                       <div class="float-right dropdown">
-                        <a href="#" data-toggle="dropdown">
+                        <a href="/" data-toggle="dropdown">
                           <i class="fas fa-ellipsis-h"></i>
                         </a>
                         <div class="dropdown-menu">
                           <div class="dropdown-title">Options</div>
-                          <a href="#" class="dropdown-item has-icon">
+                          <a href="/" class="dropdown-item has-icon">
                             <i class="fas fa-eye"></i> View
                           </a>
-                          <a href="#" class="dropdown-item has-icon">
+                          <a href="/" class="dropdown-item has-icon">
                             <i class="fas fa-list"></i> Detail
                           </a>
                           <div class="dropdown-divider"></div>
                           <a
-                            href="#"
+                            href="/"
                             class="dropdown-item has-icon text-danger"
                             data-confirm="Wait, wait, wait...|This action can't be undone. Want to take risks?"
                             data-confirm-text-yes="Yes, IDC"
@@ -190,24 +190,24 @@ export default function Activities() {
                     <div class="mb-2">
                       <span class="text-job">Yesterday</span>
                       <span class="bullet"></span>
-                      <a class="text-job" href="#">
+                      <a class="text-job" href="/">
                         View
                       </a>
                       <div class="float-right dropdown">
-                        <a href="#" data-toggle="dropdown">
+                        <a href="/" data-toggle="dropdown">
                           <i class="fas fa-ellipsis-h"></i>
                         </a>
                         <div class="dropdown-menu">
                           <div class="dropdown-title">Options</div>
-                          <a href="#" class="dropdown-item has-icon">
+                          <a href="/" class="dropdown-item has-icon">
                             <i class="fas fa-eye"></i> View
                           </a>
-                          <a href="#" class="dropdown-item has-icon">
+                          <a href="/" class="dropdown-item has-icon">
                             <i class="fas fa-list"></i> Detail
                           </a>
                           <div class="dropdown-divider"></div>
                           <a
-                            href="#"
+                            href="/"
                             class="dropdown-item has-icon text-danger"
                             data-confirm="Wait, wait, wait...|This action can't be undone. Want to take risks?"
                             data-confirm-text-yes="Yes, IDC"
@@ -231,24 +231,24 @@ export default function Activities() {
                     <div class="mb-2">
                       <span class="text-job">Yesterday</span>
                       <span class="bullet"></span>
-                      <a class="text-job" href="#">
+                      <a class="text-job" href="/">
                         View
                       </a>
                       <div class="float-right dropdown">
-                        <a href="#" data-toggle="dropdown">
+                        <a href="/" data-toggle="dropdown">
                           <i class="fas fa-ellipsis-h"></i>
                         </a>
                         <div class="dropdown-menu">
                           <div class="dropdown-title">Options</div>
-                          <a href="#" class="dropdown-item has-icon">
+                          <a href="/" class="dropdown-item has-icon">
                             <i class="fas fa-eye"></i> View
                           </a>
-                          <a href="#" class="dropdown-item has-icon">
+                          <a href="/" class="dropdown-item has-icon">
                             <i class="fas fa-list"></i> Detail
                           </a>
                           <div class="dropdown-divider"></div>
                           <a
-                            href="#"
+                            href="/"
                             class="dropdown-item has-icon text-danger"
                             data-confirm="Wait, wait, wait...|This action can't be undone. Want to take risks?"
                             data-confirm-text-yes="Yes, IDC"
@@ -260,10 +260,10 @@ export default function Activities() {
                     </div>
                     <p>
                       Assign the task of "
-                      <a href="#">
+                      <a href="/">
                         Redesigning website header and make it responsive AF
                       </a>
-                      " to <a href="#">Syahdan Ubaidilah</a>.
+                      " to <a href="/">Syahdan Ubaidilah</a>.
                     </p>
                   </div>
                 </div>

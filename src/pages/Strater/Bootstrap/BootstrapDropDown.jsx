@@ -8,10 +8,10 @@ export default function BootstrapDropDown() {
           <h1>Dropdown</h1>
           <div class="section-header-breadcrumb">
             <div class="breadcrumb-item active">
-              <a href="#">Dashboard</a>
+              <a href="/">Dashboard</a>
             </div>
             <div class="breadcrumb-item">
-              <a href="#">Bootstrap Components</a>
+              <a href="/">Bootstrap Components</a>
             </div>
             <div class="breadcrumb-item">Dropdown</div>
           </div>
@@ -43,13 +43,13 @@ export default function BootstrapDropDown() {
                       Easy Dropdown
                     </button>
                     <div class="dropdown-menu">
-                      <a class="dropdown-item" href="#">
+                      <a class="dropdown-item" href="/">
                         Action
                       </a>
-                      <a class="dropdown-item" href="#">
+                      <a class="dropdown-item" href="/">
                         Another action
                       </a>
-                      <a class="dropdown-item" href="#">
+                      <a class="dropdown-item" href="/">
                         Something else here
                       </a>
                     </div>
@@ -66,13 +66,13 @@ export default function BootstrapDropDown() {
                       Easy Dropdown
                     </button>
                     <div class="dropdown-menu">
-                      <a class="dropdown-item" href="#">
+                      <a class="dropdown-item" href="/">
                         Action
                       </a>
-                      <a class="dropdown-item" href="#">
+                      <a class="dropdown-item" href="/">
                         Another action
                       </a>
-                      <a class="dropdown-item" href="#">
+                      <a class="dropdown-item" href="/">
                         Something else here
                       </a>
                     </div>
@@ -89,13 +89,13 @@ export default function BootstrapDropDown() {
                       Easy Dropdown
                     </button>
                     <div class="dropdown-menu">
-                      <a class="dropdown-item" href="#">
+                      <a class="dropdown-item" href="/">
                         Action
                       </a>
-                      <a class="dropdown-item" href="#">
+                      <a class="dropdown-item" href="/">
                         Another action
                       </a>
-                      <a class="dropdown-item" href="#">
+                      <a class="dropdown-item" href="/">
                         Something else here
                       </a>
                     </div>
@@ -119,17 +119,17 @@ export default function BootstrapDropDown() {
                       <span class="sr-only">Toggle Dropdown</span>
                     </button>
                     <div class="dropdown-menu">
-                      <a class="dropdown-item" href="#">
+                      <a class="dropdown-item" href="/">
                         Action
                       </a>
-                      <a class="dropdown-item" href="#">
+                      <a class="dropdown-item" href="/">
                         Another action
                       </a>
-                      <a class="dropdown-item" href="#">
+                      <a class="dropdown-item" href="/">
                         Something else here
                       </a>
                       <div class="dropdown-divider"></div>
-                      <a class="dropdown-item" href="#">
+                      <a class="dropdown-item" href="/">
                         Separated link
                       </a>
                     </div>
@@ -152,17 +152,17 @@ export default function BootstrapDropDown() {
                       Dropup
                     </button>
                     <div class="dropdown-menu">
-                      <a class="dropdown-item" href="#">
+                      <a class="dropdown-item" href="/">
                         Action
                       </a>
-                      <a class="dropdown-item" href="#">
+                      <a class="dropdown-item" href="/">
                         Another action
                       </a>
-                      <a class="dropdown-item" href="#">
+                      <a class="dropdown-item" href="/">
                         Something else here
                       </a>
                       <div class="dropdown-divider"></div>
-                      <a class="dropdown-item" href="#">
+                      <a class="dropdown-item" href="/">
                         Separated link
                       </a>
                     </div>
@@ -178,17 +178,17 @@ export default function BootstrapDropDown() {
                       Dropright
                     </button>
                     <div class="dropdown-menu dropright">
-                      <a class="dropdown-item" href="#">
+                      <a class="dropdown-item" href="/">
                         Action
                       </a>
-                      <a class="dropdown-item" href="#">
+                      <a class="dropdown-item" href="/">
                         Another action
                       </a>
-                      <a class="dropdown-item" href="#">
+                      <a class="dropdown-item" href="/">
                         Something else here
                       </a>
                       <div class="dropdown-divider"></div>
-                      <a class="dropdown-item" href="#">
+                      <a class="dropdown-item" href="/">
                         Separated link
                       </a>
                     </div>
@@ -204,17 +204,17 @@ export default function BootstrapDropDown() {
                       Dropleft
                     </button>
                     <div class="dropdown-menu dropleft">
-                      <a class="dropdown-item" href="#">
+                      <a class="dropdown-item" href="/">
                         Action
                       </a>
-                      <a class="dropdown-item" href="#">
+                      <a class="dropdown-item" href="/">
                         Another action
                       </a>
-                      <a class="dropdown-item" href="#">
+                      <a class="dropdown-item" href="/">
                         Something else here
                       </a>
                       <div class="dropdown-divider"></div>
-                      <a class="dropdown-item" href="#">
+                      <a class="dropdown-item" href="/">
                         Separated link
                       </a>
                     </div>
@@ -240,13 +240,13 @@ export default function BootstrapDropDown() {
                       With Icon
                     </button>
                     <div class="dropdown-menu">
-                      <a class="dropdown-item has-icon" href="#">
+                      <a class="dropdown-item has-icon" href="/">
                         <i class="far fa-heart"></i> Action
                       </a>
-                      <a class="dropdown-item has-icon" href="#">
+                      <a class="dropdown-item has-icon" href="/">
                         <i class="far fa-file"></i> Another action
                       </a>
-                      <a class="dropdown-item has-icon" href="#">
+                      <a class="dropdown-item has-icon" href="/">
                         <i class="far fa-clock"></i> Something else here
                       </a>
                     </div>
@@ -269,17 +269,17 @@ export default function BootstrapDropDown() {
                       Small button
                     </button>
                     <div class="dropdown-menu">
-                      <a class="dropdown-item" href="#">
+                      <a class="dropdown-item" href="/">
                         Action
                       </a>
-                      <a class="dropdown-item" href="#">
+                      <a class="dropdown-item" href="/">
                         Another action
                       </a>
-                      <a class="dropdown-item" href="#">
+                      <a class="dropdown-item" href="/">
                         Something else here
                       </a>
                       <div class="dropdown-divider"></div>
-                      <a class="dropdown-item" href="#">
+                      <a class="dropdown-item" href="/">
                         Separated link
                       </a>
                     </div>
@@ -295,17 +295,17 @@ export default function BootstrapDropDown() {
                       Normal button
                     </button>
                     <div class="dropdown-menu">
-                      <a class="dropdown-item" href="#">
+                      <a class="dropdown-item" href="/">
                         Action
                       </a>
-                      <a class="dropdown-item" href="#">
+                      <a class="dropdown-item" href="/">
                         Another action
                       </a>
-                      <a class="dropdown-item" href="#">
+                      <a class="dropdown-item" href="/">
                         Something else here
                       </a>
                       <div class="dropdown-divider"></div>
-                      <a class="dropdown-item" href="#">
+                      <a class="dropdown-item" href="/">
                         Separated link
                       </a>
                     </div>
@@ -321,17 +321,17 @@ export default function BootstrapDropDown() {
                       Large button
                     </button>
                     <div class="dropdown-menu">
-                      <a class="dropdown-item" href="#">
+                      <a class="dropdown-item" href="/">
                         Action
                       </a>
-                      <a class="dropdown-item" href="#">
+                      <a class="dropdown-item" href="/">
                         Another action
                       </a>
-                      <a class="dropdown-item" href="#">
+                      <a class="dropdown-item" href="/">
                         Something else here
                       </a>
                       <div class="dropdown-divider"></div>
-                      <a class="dropdown-item" href="#">
+                      <a class="dropdown-item" href="/">
                         Separated link
                       </a>
                     </div>
@@ -355,17 +355,17 @@ export default function BootstrapDropDown() {
                     </button>
                     <div class="dropdown-menu">
                       <div class="dropdown-title">Hi, John!</div>
-                      <a class="dropdown-item" href="#">
+                      <a class="dropdown-item" href="/">
                         Action
                       </a>
-                      <a class="dropdown-item" href="#">
+                      <a class="dropdown-item" href="/">
                         Another action
                       </a>
-                      <a class="dropdown-item" href="#">
+                      <a class="dropdown-item" href="/">
                         Something else here
                       </a>
                       <div class="dropdown-divider"></div>
-                      <a class="dropdown-item" href="#">
+                      <a class="dropdown-item" href="/">
                         Separated link
                       </a>
                     </div>

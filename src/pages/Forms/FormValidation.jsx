@@ -19,10 +19,10 @@ export class FormValidation extends Component {
             <h1>Form Validation</h1>
             <div className="section-header-breadcrumb">
               <div className="breadcrumb-item active">
-                <a href="#">Dashboard</a>
+                <a href="/">Dashboard</a>
               </div>
               <div className="breadcrumb-item">
-                <a href="#">Forms</a>
+                <a href="/">Forms</a>
               </div>
               <div className="breadcrumb-item">Form Validation</div>
             </div>

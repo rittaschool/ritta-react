@@ -8,10 +8,10 @@ export default function BootstrapMediaObject() {
           <h1>Media Object</h1>
           <div class="section-header-breadcrumb">
             <div class="breadcrumb-item active">
-              <a href="#">Dashboard</a>
+              <a href="/">Dashboard</a>
             </div>
             <div class="breadcrumb-item">
-              <a href="#">Bootstrap Components</a>
+              <a href="/">Bootstrap Components</a>
             </div>
             <div class="breadcrumb-item">Media Object</div>
           </div>
@@ -128,7 +128,7 @@ export default function BootstrapMediaObject() {
                       </p>
 
                       <div class="media mt-3">
-                        <a class="pr-3" href="#">
+                        <a class="pr-3" href="/">
                           <img
                             src="../assets/img/example-image-50.jpg"
                             alt="Generic placeholder image"

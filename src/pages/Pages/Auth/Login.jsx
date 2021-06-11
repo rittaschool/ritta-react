@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import $ from "jquery";
-
+import ThirdPartyAuth from "./ThirdPartyAuth";
 export class Login extends Component {
   componentDidMount() {
     $(".needs-validation").submit(function(event) {
@@ -11,6 +11,10 @@ export class Login extends Component {
       }
       form.addClass("was-validated");
     });
+  }
+
+  currentYear() {
+    return new Date().getFullYear();
   }
 
   render() {
@@ -42,34 +46,26 @@ export class Login extends Component {
                       className="needs-validation"
                     >
                       <div className="form-group">
-                        <label htmlFor="email">Email</label>
+                        <label htmlFor="username">Käyttäjänimi</label>
                         <input
-                          id="email"
-                          type="email"
+                          id="username"
+                          type="text"
                           className="form-control"
-                          name="email"
+                          name="username"
                           tabIndex="1"
                           required
                           autoFocus
                         />
                         <div className="invalid-feedback">
-                          Please fill in your email
+                          Virheellinen käyttäjänimi
                         </div>
                       </div>
 
                       <div className="form-group">
                         <div className="d-block">
                           <label htmlFor="password" className="control-label">
-                            Password
+                            Salasana
                           </label>
-                          <div className="float-right">
-                            <a
-                              href="auth-forgot-password.html"
-                              className="text-small"
-                            >
-                              Forgot Password?
-                            </a>
-                          </div>
                         </div>
                         <input
                           id="password"
@@ -80,25 +76,7 @@ export class Login extends Component {
                           required
                         />
                         <div className="invalid-feedback">
-                          please fill in your password
-                        </div>
-                      </div>
-
-                      <div className="form-group">
-                        <div className="custom-control custom-checkbox">
-                          <input
-                            type="checkbox"
-                            name="remember"
-                            className="custom-control-input"
-                            tabIndex="3"
-                            id="remember-me"
-                          />
-                          <label
-                            className="custom-control-label"
-                            htmlFor="remember-me"
-                          >
-                            Remember Me
-                          </label>
+                          Virheellinen salasana.
                         </div>
                       </div>
 
@@ -108,35 +86,18 @@ export class Login extends Component {
                           className="btn btn-primary btn-lg btn-block"
                           tabIndex="4"
                         >
-                          Login
+                          Kirjaudu
                         </button>
                       </div>
                     </form>
-                    <div className="text-center mt-4 mb-3">
-                      <div className="text-job text-muted">
-                        Login With Social
-                      </div>
-                    </div>
-                    <div className="row sm-gutters">
-                      <div className="col-6">
-                        <a className="btn btn-block btn-social btn-facebook">
-                          <span className="fab fa-facebook"></span> Facebook
-                        </a>
-                      </div>
-                      <div className="col-6">
-                        <a className="btn btn-block btn-social btn-twitter">
-                          <span className="fab fa-twitter"></span> Twitter
-                        </a>
-                      </div>
-                    </div>
+                    <ThirdPartyAuth />
                   </div>
                 </div>
                 <div className="mt-5 text-muted text-center">
-                  Don't have an account?{" "}
-                  <a href="auth-register.html">Create One</a>
+                  Mikäli unohdit salasanasi, ota yhteys oppilaitokseen.
                 </div>
                 <div className="simple-footer">
-                  Copyright &copy; Stisla 2018
+                  Copyright &copy; Ritta {this.currentYear()}
                 </div>
               </div>
             </div>

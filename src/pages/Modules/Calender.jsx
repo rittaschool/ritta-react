@@ -78,10 +78,10 @@ export class Calender extends Component {
             <h1>Calendar</h1>
             <div className="section-header-breadcrumb">
               <div className="breadcrumb-item active">
-                <a href="#">Dashboard</a>
+                <a href="/">Dashboard</a>
               </div>
               <div className="breadcrumb-item">
-                <a href="#">Modules</a>
+                <a href="/">Modules</a>
               </div>
               <div className="breadcrumb-item">Calendar</div>
             </div>

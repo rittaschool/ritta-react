@@ -8,10 +8,10 @@ export default function BootstrapNav() {
           <h1>Nav</h1>
           <div class="section-header-breadcrumb">
             <div class="breadcrumb-item active">
-              <a href="#">Dashboard</a>
+              <a href="/">Dashboard</a>
             </div>
             <div class="breadcrumb-item">
-              <a href="#">Bootstrap Components</a>
+              <a href="/">Bootstrap Components</a>
             </div>
             <div class="breadcrumb-item">Nav</div>
           </div>
@@ -32,22 +32,22 @@ export default function BootstrapNav() {
                 <div class="card-body">
                   <ul class="nav">
                     <li class="nav-item">
-                      <a class="nav-link active" href="#">
+                      <a class="nav-link active" href="/">
                         Active
                       </a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">
+                      <a class="nav-link" href="/">
                         Link
                       </a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">
+                      <a class="nav-link" href="/">
                         Link
                       </a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link disabled" href="#">
+                      <a class="nav-link disabled" href="/">
                         Disabled
                       </a>
                     </li>
@@ -61,22 +61,22 @@ export default function BootstrapNav() {
                 <div class="card-body">
                   <ul class="nav flex-column">
                     <li class="nav-item">
-                      <a class="nav-link active" href="#">
+                      <a class="nav-link active" href="/">
                         Active
                       </a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">
+                      <a class="nav-link" href="/">
                         Link
                       </a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">
+                      <a class="nav-link" href="/">
                         Link
                       </a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link disabled" href="#">
+                      <a class="nav-link disabled" href="/">
                         Disabled
                       </a>
                     </li>
@@ -92,22 +92,22 @@ export default function BootstrapNav() {
                 <div class="card-body">
                   <ul class="nav nav-tabs">
                     <li class="nav-item">
-                      <a class="nav-link active" href="#">
+                      <a class="nav-link active" href="/">
                         Active
                       </a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">
+                      <a class="nav-link" href="/">
                         Link
                       </a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">
+                      <a class="nav-link" href="/">
                         Link
                       </a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link disabled" href="#">
+                      <a class="nav-link disabled" href="/">
                         Disabled
                       </a>
                     </li>
@@ -122,22 +122,22 @@ export default function BootstrapNav() {
                   <div class="section-title mt-0">Simple</div>
                   <ul class="nav nav-pills">
                     <li class="nav-item">
-                      <a class="nav-link active" href="#">
+                      <a class="nav-link active" href="/">
                         Active
                       </a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">
+                      <a class="nav-link" href="/">
                         Link
                       </a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">
+                      <a class="nav-link" href="/">
                         Link
                       </a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link disabled" href="#">
+                      <a class="nav-link disabled" href="/">
                         Disabled
                       </a>
                     </li>
@@ -145,17 +145,17 @@ export default function BootstrapNav() {
                   <div class="section-title">Icon</div>
                   <ul class="nav nav-pills">
                     <li class="nav-item">
-                      <a class="nav-link active" href="#">
+                      <a class="nav-link active" href="/">
                         <i class="fas fa-home"></i> Home
                       </a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">
+                      <a class="nav-link" href="/">
                         <i class="fas fa-user"></i> Profile
                       </a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">
+                      <a class="nav-link" href="/">
                         <i class="fas fa-cog"></i> Setting
                       </a>
                     </li>

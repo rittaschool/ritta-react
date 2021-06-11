@@ -20,10 +20,10 @@ export class SettingDetail extends Component {
             <h1>General Settings</h1>
             <div class="section-header-breadcrumb">
               <div class="breadcrumb-item active">
-                <a href="#">Dashboard</a>
+                <a href="/">Dashboard</a>
               </div>
               <div class="breadcrumb-item active">
-                <a href="#">Settings</a>
+                <a href="/">Settings</a>
               </div>
               <div class="breadcrumb-item">General Settings</div>
             </div>
@@ -43,32 +43,32 @@ export class SettingDetail extends Component {
                   <div class="card-body">
                     <ul class="nav nav-pills flex-column">
                       <li class="nav-item">
-                        <a href="#" class="nav-link active">
+                        <a href="/" class="nav-link active">
                           General
                         </a>
                       </li>
                       <li class="nav-item">
-                        <a href="#" class="nav-link">
+                        <a href="/" class="nav-link">
                           SEO
                         </a>
                       </li>
                       <li class="nav-item">
-                        <a href="#" class="nav-link">
+                        <a href="/" class="nav-link">
                           Email
                         </a>
                       </li>
                       <li class="nav-item">
-                        <a href="#" class="nav-link">
+                        <a href="/" class="nav-link">
                           System
                         </a>
                       </li>
                       <li class="nav-item">
-                        <a href="#" class="nav-link">
+                        <a href="/" class="nav-link">
                           Security
                         </a>
                       </li>
                       <li class="nav-item">
-                        <a href="#" class="nav-link">
+                        <a href="/" class="nav-link">
                           Automation
                         </a>
                       </li>

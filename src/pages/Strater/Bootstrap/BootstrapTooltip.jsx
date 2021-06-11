@@ -13,10 +13,10 @@ export class BootstrapTooltip extends Component {
             <h1>Tooltip</h1>
             <div className="section-header-breadcrumb">
               <div className="breadcrumb-item active">
-                <a href="#">Dashboard</a>
+                <a href="/">Dashboard</a>
               </div>
               <div className="breadcrumb-item">
-                <a href="#">Bootstrap Components</a>
+                <a href="/">Bootstrap Components</a>
               </div>
               <div className="breadcrumb-item">Tooltip</div>
             </div>
@@ -106,7 +106,7 @@ export class BootstrapTooltip extends Component {
                     <h4>Link</h4>
                   </div>
                   <div className="card-body">
-                    <a href="#" data-toggle="tooltip" title="Tooltip, bro!">
+                    <a href="/" data-toggle="tooltip" title="Tooltip, bro!">
                       Hover me!
                     </a>
                   </div>

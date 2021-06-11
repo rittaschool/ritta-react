@@ -14,10 +14,10 @@ export class DataTables extends Component {
             <h1>DataTables</h1>
             <div class="section-header-breadcrumb">
               <div class="breadcrumb-item active">
-                <a href="#">Dashboard</a>
+                <a href="/">Dashboard</a>
               </div>
               <div class="breadcrumb-item">
-                <a href="#">Modules</a>
+                <a href="/">Modules</a>
               </div>
               <div class="breadcrumb-item">DataTables</div>
             </div>
@@ -82,7 +82,7 @@ export class DataTables extends Component {
                               <div class="badge badge-success">Completed</div>
                             </td>
                             <td>
-                              <a href="#" class="btn btn-secondary">
+                              <a href="/" class="btn btn-secondary">
                                 Detail
                               </a>
                             </td>
@@ -131,7 +131,7 @@ export class DataTables extends Component {
                               <div class="badge badge-info">Todo</div>
                             </td>
                             <td>
-                              <a href="#" class="btn btn-secondary">
+                              <a href="/" class="btn btn-secondary">
                                 Detail
                               </a>
                             </td>
@@ -175,7 +175,7 @@ export class DataTables extends Component {
                               <div class="badge badge-warning">In Progress</div>
                             </td>
                             <td>
-                              <a href="#" class="btn btn-secondary">
+                              <a href="/" class="btn btn-secondary">
                                 Detail
                               </a>
                             </td>
@@ -235,7 +235,7 @@ export class DataTables extends Component {
                               <div class="badge badge-success">Completed</div>
                             </td>
                             <td>
-                              <a href="#" class="btn btn-secondary">
+                              <a href="/" class="btn btn-secondary">
                                 Detail
                               </a>
                             </td>
@@ -330,7 +330,7 @@ export class DataTables extends Component {
                               <div class="badge badge-success">Completed</div>
                             </td>
                             <td>
-                              <a href="#" class="btn btn-secondary">
+                              <a href="/" class="btn btn-secondary">
                                 Detail
                               </a>
                             </td>
@@ -394,7 +394,7 @@ export class DataTables extends Component {
                               <div class="badge badge-info">Todo</div>
                             </td>
                             <td>
-                              <a href="#" class="btn btn-secondary">
+                              <a href="/" class="btn btn-secondary">
                                 Detail
                               </a>
                             </td>
@@ -453,7 +453,7 @@ export class DataTables extends Component {
                               <div class="badge badge-warning">In Progress</div>
                             </td>
                             <td>
-                              <a href="#" class="btn btn-secondary">
+                              <a href="/" class="btn btn-secondary">
                                 Detail
                               </a>
                             </td>
@@ -528,7 +528,7 @@ export class DataTables extends Component {
                               <div class="badge badge-success">Completed</div>
                             </td>
                             <td>
-                              <a href="#" class="btn btn-secondary">
+                              <a href="/" class="btn btn-secondary">
                                 Detail
                               </a>
                             </td>

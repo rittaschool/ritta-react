@@ -13,10 +13,10 @@ export class FormEditor extends Component {
             <h1>Editor</h1>
             <div class="section-header-breadcrumb">
               <div class="breadcrumb-item active">
-                <a href="#">Dashboard</a>
+                <a href="/">Dashboard</a>
               </div>
               <div class="breadcrumb-item">
-                <a href="#">Forms</a>
+                <a href="/">Forms</a>
               </div>
               <div class="breadcrumb-item">Editor</div>
             </div>

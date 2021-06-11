@@ -1,9 +1,9 @@
 import moment from "moment"
 import * as jQuery from "jquery"
-(function ($, window, i) {
+(function ($, _, i) {
   // Bootstrap 4 Modal
   $.fn.fireModal = function (options) {
-    var options = $.extend({
+    options = $.extend({
       size: 'modal-md',
       center: false,
       animation: true,
@@ -25,8 +25,7 @@ import * as jQuery from "jquery"
     this.each(function () {
       i++;
       var id = 'fire-modal-' + i,
-        trigger_class = 'trigger--' + id,
-        trigger_button = $('.' + trigger_class);
+        trigger_class = 'trigger--' + id;
 
       $(this).addClass(trigger_class);
 
@@ -44,13 +43,13 @@ import * as jQuery from "jquery"
       }
 
       // Modal base template
-      var modal_template = '   <div class="modal' + (options.animation == true ? ' fade' : '') + '" tabindex="-1" role="dialog" id="' + id + '">  ' +
+      var modal_template = '   <div class="modal' + (options.animation === true ? ' fade' : '') + '" tabindex="-1" role="dialog" id="' + id + '">  ' +
         '     <div class="modal-dialog ' + options.size + (options.center ? ' modal-dialog-centered' : '') + '" role="document">  ' +
         '       <div class="modal-content">  ' +
-        ((options.header == true) ?
+        ((options.header === true) ?
           '         <div class="modal-header">  ' +
           '           <h5 class="modal-title">' + options.title + '</h5>  ' +
-          ((options.closeButton == true) ?
+          ((options.closeButton === true) ?
             '           <button type="button" class="close" data-dismiss="modal" aria-label="Close">  ' +
             '             <span aria-hidden="true">&times;</span>  ' +
             '           </button>  ' :
@@ -68,7 +67,7 @@ import * as jQuery from "jquery"
         '  </div>  ';
 
       // Convert modal to object
-      var modal_template = $(modal_template);
+      modal_template = $(modal_template);
 
       // Start creating buttons from 'buttons' option
       var this_button;
@@ -77,7 +76,7 @@ import * as jQuery from "jquery"
         let id = "id" in item ? item.id : '';
 
         // Button template
-        this_button = '<button type="' + ("submit" in item && item.submit == true ? 'submit' : 'button') + '" class="' + item.class + '" id="' + id + '">' + item.text + '</button>';
+        this_button = '<button type="' + ("submit" in item && item.submit === true ? 'submit' : 'button') + '" class="' + item.class + '" id="' + id + '">' + item.text + '</button>';
 
         // add click event to the button
         this_button = $(this_button).off('click').on("click", function () {
@@ -175,7 +174,7 @@ import * as jQuery from "jquery"
 
   // Card Progress Controller
   $.cardProgress = function (card, options) {
-    var options = $.extend({
+    options = $.extend({
       dismiss: false,
       dismissText: 'Cancel',
       spinner: true,
@@ -185,11 +184,11 @@ import * as jQuery from "jquery"
     var me = $(card);
 
     me.addClass('card-progress');
-    if (options.spinner == false) {
+    if (options.spinner === false) {
       me.addClass('remove-spinner');
     }
 
-    if (options.dismiss == true) {
+    if (options.dismiss === true) {
       var btn_dismiss = '<a class="btn btn-danger card-progress-dismiss">' + options.dismissText + '</a>';
       btn_dismiss = $(btn_dismiss).off('click').on('click', function () {
         me.removeClass('card-progress');
@@ -215,7 +214,7 @@ import * as jQuery from "jquery"
   }
 
   $.chatCtrl = function (element, chat) {
-    var chat = $.extend({
+    chat = $.extend({
       position: 'chat-right',
       text: '',
       time: moment(new Date().toISOString()).format('hh:mm'),
@@ -225,23 +224,23 @@ import * as jQuery from "jquery"
       onShow: function () {}
     }, chat);
 
-    var target = $(element),
+    var target = $(element);
       element = '<div class="chat-item ' + chat.position + '" style="display:none">' +
-      '<img src="' + chat.picture + '">' +
-      '<div class="chat-details">' +
-      '<div class="chat-text">' + chat.text + '</div>' +
-      '<div class="chat-time">' + chat.time + '</div>' +
-      '</div>' +
-      '</div>',
-      typing_element = '<div class="chat-item chat-left chat-typing" style="display:none">' +
-      '<img src="' + chat.picture + '">' +
-      '<div class="chat-details">' +
-      '<div class="chat-text"></div>' +
-      '</div>' +
-      '</div>';
+        '<img src="' + chat.picture + '">' +
+        '<div class="chat-details">' +
+        '<div class="chat-text">' + chat.text + '</div>' +
+        '<div class="chat-time">' + chat.time + '</div>' +
+        '</div>' +
+        '</div>'
+      var typing_element = '<div class="chat-item chat-left chat-typing" style="display:none">' +
+        '<img src="' + chat.picture + '">' +
+        '<div class="chat-details">' +
+        '<div class="chat-text"></div>' +
+        '</div>' +
+        '</div>';
 
     var append_element = element;
-    if (chat.type == 'typing') {
+    if (chat.type === 'typing') {
       append_element = typing_element;
     }
 

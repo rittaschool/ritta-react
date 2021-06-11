@@ -41,7 +41,7 @@ $('[data-confirm]').each(function () {
         text: me.data('confirm-text-yes') || 'Yes',
         class: 'btn btn-danger btn-shadow',
         handler: function () {
-          eval(me.data('confirm-yes'));
+          // TODO: eval(me.data('confirm-yes'));
         }
       },
       {
@@ -49,7 +49,7 @@ $('[data-confirm]').each(function () {
         class: 'btn btn-secondary',
         handler: function (modal) {
           $.destroyModal(modal);
-          eval(me.data('confirm-no'));
+          // TODO: eval(me.data('confirm-no'));
         }
       }
     ]
@@ -110,7 +110,7 @@ $(function () {
 
         $('.main-sidebar .sidebar-menu li.active').removeClass('active');
 
-        if (active == true) {
+        if (active === true) {
           me.parent().removeClass('active');
           me.parent().find('> .dropdown-menu').slideUp(500, function () {
             update_sidebar_nicescroll();
@@ -226,7 +226,7 @@ $(function () {
 
     if (layout_classes.length > 0) {
       layout_classes.forEach(function (item) {
-        if (item.indexOf('layout-') != -1) {
+        if (item.indexOf('layout-') !== -1) {
           now_layout_class = item;
         }
       });
@@ -253,7 +253,7 @@ $(function () {
 
       update_sidebar_nicescroll();
 
-      if (now_layout_class == 'layout-3') {
+      if (now_layout_class === 'layout-3') {
         let nav_second_classes = $(".navbar-secondary").attr('class'),
           nav_second = $(".navbar-secondary");
 
@@ -289,7 +289,7 @@ $(function () {
       let nav_second_classes = $(".main-sidebar").attr('data-nav-classes'),
         nav_second = $(".main-sidebar");
 
-      if (now_layout_class == 'layout-3' && nav_second.hasClass('main-sidebar')) {
+      if (now_layout_class === 'layout-3' && nav_second.hasClass('main-sidebar')) {
         nav_second.find(".sidebar-menu li a.has-dropdown").off('click');
         nav_second.find('.sidebar-brand').remove();
         nav_second.removeAttr('class');
@@ -305,7 +305,7 @@ $(function () {
         $(".main-wrapper").addClass("container");
         // if(sidebar_nicescroll != null)
         //   sidebar_nicescroll.remove();
-      } else if (now_layout_class == 'layout-2') {
+      } else if (now_layout_class === 'layout-2') {
         $("body").addClass("layout-2");
       } else {
         update_sidebar_nicescroll();
@@ -415,14 +415,14 @@ $(function () {
         me.addClass('btn-primary');
         me.html(follow_text);
 
-        eval(me.data('unfollow-action'));
+        // TODO: eval(me.data('unfollow-action'));
       } else {
         me.removeClass('btn-primary');
         me.addClass('btn-danger');
         me.addClass('following-btn');
         me.html(unfollow_text);
 
-        eval(me.data('follow-action'));
+        // TODO: eval(me.data('follow-action'));
       }
       return false;
     });
@@ -499,8 +499,7 @@ $(function () {
 
     me.click(function () {
       if (!me.hasClass('active')) {
-        var tab_group = $('[data-tab-group="' + me.data('tab') + '"]'),
-          tab_group_active = $('[data-tab-group="' + me.data('tab') + '"].active'),
+        var tab_group_active = $('[data-tab-group="' + me.data('tab') + '"].active'),
           target = $(me.attr('href')),
           links = $('[data-tab="' + me.data('tab') + '"]');
 

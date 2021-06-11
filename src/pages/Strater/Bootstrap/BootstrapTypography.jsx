@@ -22,10 +22,10 @@ export class BootstrapTypography extends Component {
             <h1>Typography</h1>
             <div class="section-header-breadcrumb">
               <div class="breadcrumb-item active">
-                <a href="#">Dashboard</a>
+                <a href="/">Dashboard</a>
               </div>
               <div class="breadcrumb-item">
-                <a href="#">Bootstrap Components</a>
+                <a href="/">Bootstrap Components</a>
               </div>
               <div class="breadcrumb-item">Typography</div>
             </div>
@@ -66,7 +66,7 @@ export class BootstrapTypography extends Component {
                       adipisicing elit, sed do eiusmod tempor incididunt ut
                       labore et dolore magna aliqua. Ut enim ad minim veniam.
                     </p>
-                    <a href="#">You can click me!</a>
+                    <a href="/">You can click me!</a>
                   </div>
                 </div>
                 <div class="card">

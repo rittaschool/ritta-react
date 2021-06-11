@@ -418,7 +418,7 @@ export const BootstrapModaljs = () => {
             modal
                 .find(".modal-footer")
                 .prepend(
-                    '<div class="mr-auto"><a href="#">I\'m a hyperlink!</a></div>'
+                    '<div class="mr-auto"><a href="/">I\'m a hyperlink!</a></div>'
                 );
         },
         buttons: [{

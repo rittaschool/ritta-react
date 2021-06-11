@@ -15,10 +15,10 @@ export class CompTable extends Component {
             <h1>Table</h1>
             <div class="section-header-breadcrumb">
               <div class="breadcrumb-item active">
-                <a href="#">Dashboard</a>
+                <a href="/">Dashboard</a>
               </div>
               <div class="breadcrumb-item">
-                <a href="#">Components</a>
+                <a href="/">Components</a>
               </div>
               <div class="breadcrumb-item">Table</div>
             </div>
@@ -54,7 +54,7 @@ export class CompTable extends Component {
                             <div class="badge badge-success">Active</div>
                           </td>
                           <td>
-                            <a href="#" class="btn btn-secondary">
+                            <a href="/" class="btn btn-secondary">
                               Detail
                             </a>
                           </td>
@@ -67,7 +67,7 @@ export class CompTable extends Component {
                             <div class="badge badge-success">Active</div>
                           </td>
                           <td>
-                            <a href="#" class="btn btn-secondary">
+                            <a href="/" class="btn btn-secondary">
                               Detail
                             </a>
                           </td>
@@ -80,7 +80,7 @@ export class CompTable extends Component {
                             <div class="badge badge-danger">Not Active</div>
                           </td>
                           <td>
-                            <a href="#" class="btn btn-secondary">
+                            <a href="/" class="btn btn-secondary">
                               Detail
                             </a>
                           </td>
@@ -93,7 +93,7 @@ export class CompTable extends Component {
                             <div class="badge badge-success">Active</div>
                           </td>
                           <td>
-                            <a href="#" class="btn btn-secondary">
+                            <a href="/" class="btn btn-secondary">
                               Detail
                             </a>
                           </td>
@@ -105,27 +105,27 @@ export class CompTable extends Component {
                     <nav class="d-inline-block">
                       <ul class="pagination mb-0">
                         <li class="page-item disabled">
-                          <a class="page-link" href="#" tabindex="-1">
+                          <a class="page-link" href="/" tabindex="-1">
                             <i class="fas fa-chevron-left"></i>
                           </a>
                         </li>
                         <li class="page-item active">
-                          <a class="page-link" href="#">
+                          <a class="page-link" href="/">
                             1 <span class="sr-only">(current)</span>
                           </a>
                         </li>
                         <li class="page-item">
-                          <a class="page-link" href="#">
+                          <a class="page-link" href="/">
                             2
                           </a>
                         </li>
                         <li class="page-item">
-                          <a class="page-link" href="#">
+                          <a class="page-link" href="/">
                             3
                           </a>
                         </li>
                         <li class="page-item">
-                          <a class="page-link" href="#">
+                          <a class="page-link" href="/">
                             <i class="fas fa-chevron-right"></i>
                           </a>
                         </li>
@@ -157,7 +157,7 @@ export class CompTable extends Component {
                             <div class="badge badge-success">Active</div>
                           </td>
                           <td>
-                            <a href="#" class="btn btn-secondary">
+                            <a href="/" class="btn btn-secondary">
                               Detail
                             </a>
                           </td>
@@ -170,7 +170,7 @@ export class CompTable extends Component {
                             <div class="badge badge-success">Active</div>
                           </td>
                           <td>
-                            <a href="#" class="btn btn-secondary">
+                            <a href="/" class="btn btn-secondary">
                               Detail
                             </a>
                           </td>
@@ -183,7 +183,7 @@ export class CompTable extends Component {
                             <div class="badge badge-danger">Not Active</div>
                           </td>
                           <td>
-                            <a href="#" class="btn btn-secondary">
+                            <a href="/" class="btn btn-secondary">
                               Detail
                             </a>
                           </td>
@@ -196,7 +196,7 @@ export class CompTable extends Component {
                             <div class="badge badge-success">Active</div>
                           </td>
                           <td>
-                            <a href="#" class="btn btn-secondary">
+                            <a href="/" class="btn btn-secondary">
                               Detail
                             </a>
                           </td>
@@ -209,7 +209,7 @@ export class CompTable extends Component {
                             <div class="badge badge-success">Active</div>
                           </td>
                           <td>
-                            <a href="#" class="btn btn-secondary">
+                            <a href="/" class="btn btn-secondary">
                               Detail
                             </a>
                           </td>
@@ -221,27 +221,27 @@ export class CompTable extends Component {
                     <nav class="d-inline-block">
                       <ul class="pagination mb-0">
                         <li class="page-item disabled">
-                          <a class="page-link" href="#" tabindex="-1">
+                          <a class="page-link" href="/" tabindex="-1">
                             <i class="fas fa-chevron-left"></i>
                           </a>
                         </li>
                         <li class="page-item active">
-                          <a class="page-link" href="#">
+                          <a class="page-link" href="/">
                             1 <span class="sr-only">(current)</span>
                           </a>
                         </li>
                         <li class="page-item">
-                          <a class="page-link" href="#">
+                          <a class="page-link" href="/">
                             2
                           </a>
                         </li>
                         <li class="page-item">
-                          <a class="page-link" href="#">
+                          <a class="page-link" href="/">
                             3
                           </a>
                         </li>
                         <li class="page-item">
-                          <a class="page-link" href="#">
+                          <a class="page-link" href="/">
                             <i class="fas fa-chevron-right"></i>
                           </a>
                         </li>
@@ -347,7 +347,7 @@ export class CompTable extends Component {
                             <div class="badge badge-success">Completed</div>
                           </td>
                           <td>
-                            <a href="#" class="btn btn-secondary">
+                            <a href="/" class="btn btn-secondary">
                               Detail
                             </a>
                           </td>
@@ -411,7 +411,7 @@ export class CompTable extends Component {
                             <div class="badge badge-info">Todo</div>
                           </td>
                           <td>
-                            <a href="#" class="btn btn-secondary">
+                            <a href="/" class="btn btn-secondary">
                               Detail
                             </a>
                           </td>
@@ -470,7 +470,7 @@ export class CompTable extends Component {
                             <div class="badge badge-warning">In Progress</div>
                           </td>
                           <td>
-                            <a href="#" class="btn btn-secondary">
+                            <a href="/" class="btn btn-secondary">
                               Detail
                             </a>
                           </td>
@@ -545,7 +545,7 @@ export class CompTable extends Component {
                             <div class="badge badge-success">Completed</div>
                           </td>
                           <td>
-                            <a href="#" class="btn btn-secondary">
+                            <a href="/" class="btn btn-secondary">
                               Detail
                             </a>
                           </td>
@@ -630,7 +630,7 @@ export class CompTable extends Component {
                               <div class="badge badge-success">Completed</div>
                             </td>
                             <td>
-                              <a href="#" class="btn btn-secondary">
+                              <a href="/" class="btn btn-secondary">
                                 Detail
                               </a>
                             </td>
@@ -683,7 +683,7 @@ export class CompTable extends Component {
                               <div class="badge badge-info">Todo</div>
                             </td>
                             <td>
-                              <a href="#" class="btn btn-secondary">
+                              <a href="/" class="btn btn-secondary">
                                 Detail
                               </a>
                             </td>
@@ -731,7 +731,7 @@ export class CompTable extends Component {
                               <div class="badge badge-warning">In Progress</div>
                             </td>
                             <td>
-                              <a href="#" class="btn btn-secondary">
+                              <a href="/" class="btn btn-secondary">
                                 Detail
                               </a>
                             </td>
@@ -795,7 +795,7 @@ export class CompTable extends Component {
                               <div class="badge badge-success">Completed</div>
                             </td>
                             <td>
-                              <a href="#" class="btn btn-secondary">
+                              <a href="/" class="btn btn-secondary">
                                 Detail
                               </a>
                             </td>

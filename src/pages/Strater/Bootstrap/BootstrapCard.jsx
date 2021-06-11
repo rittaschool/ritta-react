@@ -125,10 +125,10 @@ export default class BootstrapCard extends Component {
             <h1>Card</h1>
             <div className="section-header-breadcrumb">
               <div className="breadcrumb-item active">
-                <a href="#">Dashboard</a>
+                <a href="/">Dashboard</a>
               </div>
               <div className="breadcrumb-item">
-                <a href="#">Bootstrap Components</a>
+                <a href="/">Bootstrap Components</a>
               </div>
               <div className="breadcrumb-item">Card</div>
             </div>
@@ -174,10 +174,10 @@ export default class BootstrapCard extends Component {
                       Some quick example text to build on the card title and
                       make up the bulk of the card's content.
                     </p>
-                    <a href="#" className="card-link">
+                    <a href="/" className="card-link">
                       Card link
                     </a>
-                    <a href="#" className="card-link">
+                    <a href="/" className="card-link">
                       Another link
                     </a>
                   </div>
@@ -311,7 +311,7 @@ export default class BootstrapCard extends Component {
                   <div className="card-header">
                     <h4>Card Header</h4>
                     <div className="card-header-action">
-                      <a href="#" className="btn btn-primary">
+                      <a href="/" className="btn btn-primary">
                         View All
                       </a>
                     </div>
@@ -325,13 +325,13 @@ export default class BootstrapCard extends Component {
                     <h4>Button Group</h4>
                     <div className="card-header-action">
                       <div className="btn-group">
-                        <a href="#" className="btn btn-primary">
+                        <a href="/" className="btn btn-primary">
                           Home
                         </a>
-                        <a href="#" className="btn btn-primary">
+                        <a href="/" className="btn btn-primary">
                           Profile
                         </a>
-                        <a href="#" className="btn btn-primary">
+                        <a href="/" className="btn btn-primary">
                           Setting
                         </a>
                       </div>
@@ -363,10 +363,10 @@ export default class BootstrapCard extends Component {
                   <div className="card-header">
                     <h4>Card Header</h4>
                     <div className="card-header-action">
-                      <a href="#" className="btn btn-primary">
+                      <a href="/" className="btn btn-primary">
                         View All
                       </a>
-                      <a href="#" className="btn btn-danger">
+                      <a href="/" className="btn btn-danger">
                         Delete All
                       </a>
                     </div>
@@ -379,27 +379,27 @@ export default class BootstrapCard extends Component {
                   <div className="card-header">
                     <h4>Dropdown Button</h4>
                     <div className="card-header-action">
-                      <a href="#" className="btn btn-primary">
+                      <a href="/" className="btn btn-primary">
                         View All
                       </a>
                       <div className="dropdown">
                         <a
-                          href="#"
+                          href="/"
                           data-toggle="dropdown"
                           className="btn btn-warning dropdown-toggle"
                         >
                           Options
                         </a>
                         <div className="dropdown-menu">
-                          <a href="#" className="dropdown-item has-icon">
+                          <a href="/" className="dropdown-item has-icon">
                             <i className="fas fa-eye"></i> View
                           </a>
-                          <a href="#" className="dropdown-item has-icon">
+                          <a href="/" className="dropdown-item has-icon">
                             <i className="far fa-edit"></i> Edit
                           </a>
                           <div className="dropdown-divider"></div>
                           <a
-                            href="#"
+                            href="/"
                             className="dropdown-item has-icon text-danger"
                           >
                             <i className="far fa-trash-alt"></i> Delete
@@ -452,7 +452,7 @@ export default class BootstrapCard extends Component {
                       <a
                         data-collapse="#mycard-collapse"
                         className="btn btn-icon btn-info"
-                        href="#"
+                        href="/"
                       >
                         <i className="fas fa-minus"></i>
                       </a>
@@ -469,7 +469,7 @@ export default class BootstrapCard extends Component {
                   <div className="card-header">
                     <h4>My Picture</h4>
                     <div className="card-header-action">
-                      <a href="#" className="btn btn-primary">
+                      <a href="/" className="btn btn-primary">
                         View All
                       </a>
                     </div>
@@ -504,7 +504,7 @@ export default class BootstrapCard extends Component {
                       <a
                         data-dismiss="#mycard-dimiss"
                         className="btn btn-icon btn-danger"
-                        href="#"
+                        href="/"
                       >
                         <i className="fas fa-times"></i>
                       </a>
@@ -587,7 +587,7 @@ export default class BootstrapCard extends Component {
                       >
                         Login
                       </button>
-                      <a href="#" className="ml-2">
+                      <a href="/" className="ml-2">
                         Create new Account?
                       </a>
                     </div>

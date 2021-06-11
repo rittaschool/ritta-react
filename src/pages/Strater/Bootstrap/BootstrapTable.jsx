@@ -8,10 +8,10 @@ export default function BootstrapTable() {
           <h1>Table</h1>
           <div className="section-header-breadcrumb">
             <div className="breadcrumb-item active">
-              <a href="#">Dashboard</a>
+              <a href="/">Dashboard</a>
             </div>
             <div className="breadcrumb-item">
-              <a href="#">Bootstrap Components</a>
+              <a href="/">Bootstrap Components</a>
             </div>
             <div className="breadcrumb-item">Table</div>
           </div>

@@ -13,10 +13,10 @@ export class CompMultipleupload extends Component {
             <h1>Multiple Upload</h1>
             <div className="section-header-breadcrumb">
               <div className="breadcrumb-item active">
-                <a href="#">Dashboard</a>
+                <a href="/">Dashboard</a>
               </div>
               <div className="breadcrumb-item">
-                <a href="#">Components</a>
+                <a href="/">Components</a>
               </div>
               <div className="breadcrumb-item">Multiple Upload</div>
             </div>

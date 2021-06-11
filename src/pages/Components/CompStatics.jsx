@@ -15,10 +15,10 @@ export class CompStatics extends Component {
             <h1>Statistic</h1>
             <div class="section-header-breadcrumb">
               <div class="breadcrumb-item active">
-                <a href="#">Dashboard</a>
+                <a href="/">Dashboard</a>
               </div>
               <div class="breadcrumb-item">
-                <a href="#">Components</a>
+                <a href="/">Components</a>
               </div>
               <div class="breadcrumb-item">Statistic</div>
             </div>
@@ -65,7 +65,7 @@ export class CompStatics extends Component {
                           Sold 4 items on 2 customers
                         </div>
                         <div class="d-block mt-2">
-                          <a href="#">View All</a>
+                          <a href="/">View All</a>
                         </div>
                       </div>
                       <div
@@ -81,7 +81,7 @@ export class CompStatics extends Component {
                         </h6>
                         <ul class="list-unstyled list-unstyled-border">
                           <li class="media">
-                            <a href="#">
+                            <a href="/">
                               <img
                                 alt="image"
                                 class="mr-3 rounded"
@@ -92,16 +92,16 @@ export class CompStatics extends Component {
                             <div class="media-body">
                               <div class="media-right">$805</div>
                               <div class="media-title">
-                                <a href="#">iBook Noob</a>
+                                <a href="/">iBook Noob</a>
                               </div>
                               <div class="text-small text-muted">
-                                by <a href="#">Ahmad Sutisna</a>{" "}
+                                by <a href="/">Ahmad Sutisna</a>{" "}
                                 <div class="bullet"></div> Sunday
                               </div>
                             </div>
                           </li>
                           <li class="media">
-                            <a href="#">
+                            <a href="/">
                               <img
                                 alt="image"
                                 class="mr-3 rounded"
@@ -112,16 +112,16 @@ export class CompStatics extends Component {
                             <div class="media-body">
                               <div class="media-right">$405</div>
                               <div class="media-title">
-                                <a href="#">Headphone Blitz</a>
+                                <a href="/">Headphone Blitz</a>
                               </div>
                               <div class="text-small text-muted">
-                                by <a href="#">Hasan Basri</a>{" "}
+                                by <a href="/">Hasan Basri</a>{" "}
                                 <div class="bullet"></div> Sunday
                               </div>
                             </div>
                           </li>
                           <li class="media">
-                            <a href="#">
+                            <a href="/">
                               <img
                                 alt="image"
                                 class="mr-3 rounded"
@@ -132,16 +132,16 @@ export class CompStatics extends Component {
                             <div class="media-body">
                               <div class="media-right">$499</div>
                               <div class="media-title">
-                                <a href="#">RocketZ</a>
+                                <a href="/">RocketZ</a>
                               </div>
                               <div class="text-muted text-small">
-                                by <a href="#">Hasan Basri</a>{" "}
+                                by <a href="/">Hasan Basri</a>{" "}
                                 <div class="bullet"></div> Sunday
                               </div>
                             </div>
                           </li>
                           <li class="media">
-                            <a href="#">
+                            <a href="/">
                               <img
                                 alt="image"
                                 class="mr-3 rounded"
@@ -152,10 +152,10 @@ export class CompStatics extends Component {
                             <div class="media-body">
                               <div class="media-right">$149</div>
                               <div class="media-title">
-                                <a href="#">Xiaomay Readme 4.0</a>
+                                <a href="/">Xiaomay Readme 4.0</a>
                               </div>
                               <div class="text-small text-muted">
-                                by <a href="#">Kusnaedi</a>{" "}
+                                by <a href="/">Kusnaedi</a>{" "}
                                 <div class="bullet"></div> Tuesday
                               </div>
                             </div>
@@ -171,13 +171,13 @@ export class CompStatics extends Component {
                   <div class="card-header">
                     <h4>Statistics</h4>
                     <div class="card-header-action">
-                      <a href="#" class="btn active">
+                      <a href="/" class="btn active">
                         Week
                       </a>
-                      <a href="#" class="btn">
+                      <a href="/" class="btn">
                         Month
                       </a>
-                      <a href="#" class="btn">
+                      <a href="/" class="btn">
                         Year
                       </a>
                     </div>
