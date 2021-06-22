@@ -6,6 +6,7 @@
     "@aacassandra/jquery.pwstrength": "^0.0.1",
     "@fortawesome/fontawesome-free": "^5.11.2",
     "@mdi/font": "^4.6.95",
+    "axios": "^0.21.1",
     "bootstrap": "^4.2.1",
     "bootstrap-colorpicker": "^3.0.3",
     "bootstrap-datepicker": "^1.9.0",
