@@ -64,7 +64,6 @@ require("inputmask/dist/inputmask/jquery.inputmask");
 
 require("select2/dist/js/select2.full");
 require("bootstrap-touchspin/dist/jquery.bootstrap-touchspin.min");
-require("bootstrap-tagsinput/dist/bootstrap-tagsinput");
 
 require("bootstrap-daterangepicker/daterangepicker");
 require("bootstrap-timepicker/js/bootstrap-timepicker.min");

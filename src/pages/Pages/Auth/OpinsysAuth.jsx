@@ -1,6 +1,5 @@
 import React, { Component, useEffect, useState } from "react";
 import $ from "jquery";
-import ThirdPartyAuth from "./ThirdPartyAuth";
 import axios from 'axios';
 import config from '../../../config.json';
 
@@ -29,36 +28,11 @@ function SchoolName() {
   );
 }
 
-function ThirdParty() {
-  const [opinsysEnabled, setOpinsysEnabled] = useState(false);
-
-  const getData = async () => {
-    const res = await axios.get(`${config.apiBase}/api/v1/info`, {
-      headers : {
-        'Content-Type': 'application/json',
-        'Accept': 'application/json'
-      }
-    })
-    console.log(res.data)
-    setOpinsysEnabled(res.data.school.opinsysEnabled)
-  }
-
-  useEffect(()=>{
-    getData()
-  },[]);
-
-  return (
-    <>
-    { opinsysEnabled ? <ThirdPartyAuth /> : <></>}
-    </>
-  )
-}
-async function login(username, password) {
+async function login(jwt) {
   try {
-    const res = await axios.post(`${config.apiBase}/api/v1/auth/login`,
+    const res = await axios.post(`${config.apiBase}/api/v1/auth/opinsys`,
     {
-      username,
-      password
+      jwt
     });
     return { error: false, data: res.data }; 
   } catch(e) {
@@ -84,81 +58,41 @@ async function login(username, password) {
   }
  }
 
-function LoginForm() {
-  const [username, setUserName] = useState("");
-  const [password, setPassword] = useState("");
+ function LoginForm() {
   const [mfaCode, setMfaCode] = useState("");
   const [mfaToken, setMfaToken] = useState("");
-
-  const form = <>
-    <form
-  method="POST"
-  onSubmit={async (e) => {
-    e.preventDefault();
-    const res = await login(username, password);
-    if (res.error) {
-      
-    } else {
-      if(res.data.mfaToken) {
-        setMfaToken(res.data.mfaToken);
+  const [message, setMessage] = useState("Odota hetki");
+  useEffect(() => {
+    const doIt = async () => {
+      let search = window.location.search;
+      let params = new URLSearchParams(search);
+      let jwt = params.get('jwt');
+      const res = await login(jwt);
+      if (res.error) {
+        let message = res.message;
+        switch(message) {
+          case 'No user found':
+            message = 'Mikään käyttäjä ei vastaa Puavo-IDtä. Ota yhteys oppilaitokseen'
+            break;
+          default:
+            break;
+        }
+        setMessage(message)
       } else {
-        localStorage.setItem('access', res.data.accessToken);
-        localStorage.setItem('refresh', res.data.refreshToken);
-        window.location.reload();
+        if(res.data.mfaToken) {
+          setMfaToken(res.data.mfaToken);
+        } else {
+          localStorage.setItem('access', res.data.accessToken);
+          localStorage.setItem('refresh', res.data.refreshToken);
+          window.location.replace('/');
+        }
       }
     }
-  }}
-  noValidate
-  className="needs-validation"
->
-              <div className="form-group">
-                <label htmlFor="username">Käyttäjänimi</label>
-                <input
-                  id="username"
-                  type="text"
-                  className="form-control"
-                  name="username"
-                  tabIndex="1"
-                  required
-                  autoFocus
-                  onChange={e => setUserName(e.target.value)}
-                />
-                <div className="invalid-feedback">
-                  Virheellinen käyttäjänimi
-                </div>
-              </div>
-
-              <div className="form-group">
-                <div className="d-block">
-                  <label htmlFor="password" className="control-label">
-                    Salasana
-                  </label>
-                </div>
-      <input
-        id="password"
-        type="password"
-        className="form-control"
-        name="password"
-        tabIndex="2"
-        required
-        onChange={e => setPassword(e.target.value)}
-      />
-      <div className="invalid-feedback">
-        Virheellinen salasana.
-    </div>
-  </div>
-  <div className="form-group">
-    <button
-      type="submit"
-      className="btn btn-primary btn-lg btn-block"
-      tabIndex="4"
-    >
-      Kirjaudu
-    </button>
-  </div>
-</form>
-<ThirdParty />
-</>;
+    doIt();
+  })
+  const form = <>
+    <p>{message}</p>
+  </>;
   const mfaForm = <form
   method="POST"
   onSubmit={async (e) => {
@@ -169,7 +103,7 @@ function LoginForm() {
     } else {
       localStorage.setItem('access', res.data.accessToken);
       localStorage.setItem('refresh', res.data.refreshToken);
-      window.location.reload();
+      window.location.replace('/');
     }
   }}
   noValidate
@@ -210,18 +144,8 @@ function LoginForm() {
       </>
     )
 }
-export class Login extends Component {  
-  componentDidMount() {
-    $(".needs-validation").submit(function(event) {
-      let form = $(this);
-      if (form[0].checkValidity() === false) {
-        event.preventDefault();
-        event.stopPropagation();
-      }
-      form.addClass("was-validated");
-    });
-  }
 
+export class LoginOpinsys extends Component {  
   currentYear() {
     return new Date().getFullYear();
   }
@@ -250,9 +174,6 @@ export class Login extends Component {
                     <LoginForm />
                   </div>
                 </div>
-                <div className="mt-5 text-muted text-center">
-                  Mikäli unohdit salasanasi, ota yhteys oppilaitokseen.
-                </div>
                 <div className="simple-footer">
                   Copyright &copy; Ritta {this.currentYear()}
                 </div>
@@ -265,4 +186,4 @@ export class Login extends Component {
   }
 }
 
-export default Login;
+export default LoginOpinsys;

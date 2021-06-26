@@ -4,6 +4,7 @@ import { Switch, Route } from "react-router-dom";
 
 import Home from "./pages/Home/Home";
 import Login from "./pages/Pages/Auth/Login";
+import LoginOpinsys from "./pages/Pages/Auth/OpinsysAuth";
 
 const Error404 = React.lazy(() => import('./pages/Pages/Errors/404'));
 
@@ -16,14 +17,14 @@ async function isLoggedIn() {
     return false;
   }
   try {
-    await axios.post(`${config.apiBase}/api/v1/user/accounts`, {}, {
+    await axios.post(`${config.apiBase}/api/v1/user/info`, {}, {
       headers: {
         Authorization: `Bearer ${localStorage.getItem('access')}`
       }
     })
     return true;
   } catch(e) {
-    if (e.response.data.message === "The JWT has expired" || e.response.data.message === "The JWT is invalid") {
+    if (e.response && (e.response.data.message === "The JWT has expired" || e.response.data.message === "The JWT is invalid")) {
       try {
         const res = await axios.post(`${config.apiBase}/api/v1/auth/refresh`, {
           refresh_token: localStorage.getItem('refresh')
@@ -57,7 +58,13 @@ function App() {
           <Route path="/" exact component={Home} />
           <Route component={Error404} />
         </Switch>
-        </React.Suspense> : <Login />}
+        </React.Suspense> : <React.Suspense fallback={<h1>Ladataan...</h1>}>
+        <Switch history={history}>
+          <Route path="/" exact component={Login} />
+          <Route path="/opinsys" exact component={LoginOpinsys} />
+          <Route component={Error404} />
+        </Switch>
+        </React.Suspense>}
       </>
     </div>
   );

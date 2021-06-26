@@ -1,8 +1,7 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
-import ToggleData from "./ToggleData";
-import { searchResultData, EnvelopData, NotifyData, userDetail } from "./Data";
+import { searchResultData, userDetail } from "./Data";
 import Search from "./Search";
 import UserDropdown from "./UserDropdown";
 // import Auth from '../../../../config/auth';
@@ -35,8 +34,6 @@ const Header = () => {
           <Search searchResultData={searchResultData} />
         </form>
         <ul className="navbar-nav navbar-right">
-          <ToggleData data={EnvelopData} />
-          <ToggleData data={NotifyData} />
           <UserDropdown userDetail={userDetail} />
         </ul>
       </nav>

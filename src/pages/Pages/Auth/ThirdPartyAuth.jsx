@@ -11,7 +11,7 @@ export class ThirdPartyAuth extends Component {
         </div>
         <div className="row sm-gutters">
           <div className="col-12">
-            <a class="btn btn-primary btn-lg btn-block" tabindex="4" href="https://api.opinsys.fi/v3/sso?organisation=demo.opinsys.fi&amp;return_to=http://rittademo.herokuapp.com/account/opinsys">
+            <a class="btn btn-primary btn-lg btn-block" tabindex="4" href={`https://api.opinsys.fi/v3/sso?organisation=demo.opinsys.fi&return_to=${window.location.origin}/opinsys`}>
               <img src={require('../../../assets/img/logo/opinsys.svg')} height="30" alt="Opinsys logo" />
             </a>
           </div>
