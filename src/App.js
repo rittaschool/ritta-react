@@ -5,6 +5,7 @@ import { Switch, Route } from "react-router-dom";
 import Home from "./pages/Home/Home";
 import Login from "./pages/Pages/Auth/Login";
 import LoginOpinsys from "./pages/Pages/Auth/OpinsysAuth";
+import AccountHome from "./pages/Home/AccountHome";
 
 const Error404 = React.lazy(() => import('./pages/Pages/Errors/404'));
 
@@ -48,13 +49,14 @@ function App() {
     isLoggedIn().then(loggedIn => {
       setLoggedIn(loggedIn)
     })
-  })
+  }, [])
   return loggedIn == null ? <> </> : (
     <div className="main-wrapper container">
       <>
         {loggedIn ? <React.Suspense fallback={<h1>Ladataan...</h1>}>
         <Switch history={history}>
           <Route path="/" exact component={Home} />
+          <Route path="/home" exact component={AccountHome} />
           <Route component={Error404} />
         </Switch>
         </React.Suspense> : <React.Suspense fallback={<h1>Ladataan...</h1>}>

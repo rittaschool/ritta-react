@@ -89,6 +89,7 @@ function LoginForm() {
   const [password, setPassword] = useState("");
   const [mfaCode, setMfaCode] = useState("");
   const [mfaToken, setMfaToken] = useState("");
+  const [error, setError] = useState("");
 
   const form = <>
     <form
@@ -96,8 +97,17 @@ function LoginForm() {
   onSubmit={async (e) => {
     e.preventDefault();
     const res = await login(username, password);
+    setError('')
     if (res.error) {
-      
+      let msg = res.message;
+      switch(res.message) {
+        case 'Incorrect username or password':
+          msg = 'Virheellinen käyttäjänimi tai salasana';
+          break;
+        default:
+          break;
+      }
+      setError(msg)
     } else {
       if(res.data.mfaToken) {
         setMfaToken(res.data.mfaToken);
@@ -113,6 +123,9 @@ function LoginForm() {
 >
               <div className="form-group">
                 <label htmlFor="username">Käyttäjänimi</label>
+                <p style={{
+                  color: 'red'
+                }}>{error}</p>
                 <input
                   id="username"
                   type="text"
@@ -164,8 +177,17 @@ function LoginForm() {
   onSubmit={async (e) => {
     e.preventDefault();
     const res = await mfaVerify(mfaToken, mfaCode);
+    setError('')
     if (res.error) {
-      
+      let msg = res.message;
+      switch(res.message) {
+        case 'MFA Code invalid':
+          msg = 'Virheellinen MFA-koodi';
+          break;
+        default:
+          break;
+      }
+      setError(msg)
     } else {
       localStorage.setItem('access', res.data.accessToken);
       localStorage.setItem('refresh', res.data.refreshToken);
@@ -176,6 +198,9 @@ function LoginForm() {
   className="needs-validation"
   >
               <div className="form-group">
+                <p style={{
+                  color: 'red'
+                }}>{error}</p>
                 <label htmlFor="username">2FA-koodi</label>
                 <input
                   id="mfa"

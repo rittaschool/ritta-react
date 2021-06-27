@@ -3,8 +3,6 @@ import React, { Component } from "react";
 export class Search extends Component {
 
   render() {
-    const { searchResultData } = this.props;
-
     return (
       <>
         <div className="search-element">

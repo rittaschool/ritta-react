@@ -12,6 +12,7 @@ export class UserDropdown extends Component {
           data-toggle="dropdown"
           className="nav-link dropdown-toggle nav-link-lg nav-link-user"
         >
+          <figure class="avatar mr-2 bg-info avatar-sm" data-initial={`${userDetail.user.firstName[0]}${userDetail.user.lastName[0]}`}></figure>
           <div className="d-sm-none d-lg-inline-block">
             {userDetail.user.firstName} {userDetail.user.lastName}
           </div>

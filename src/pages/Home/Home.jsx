@@ -49,12 +49,12 @@ function Accounts() {
 
   useEffect(() => {
     getAccounts()
-  })
+  }, [])
 
   return (
     <>
     {accounts.map((item)=>{
-      return <Account name={`${item.lastName} ${item.firstName}`} key={item.id} description={`Rooli ${item.userType}`}/>
+      return <Account name={`${item.lastName} ${item.firstName}`} key={item.id} id={item.id} description={`Rooli ${item.userType}`}/>
     })}
     </>
   )
@@ -66,7 +66,7 @@ export class Home extends Component {
   render() {
     return (
       <>
-        <Header />
+        <Header hideNav={true} />
         <div className="main-content">
           <section className="section">
             <div className="row">

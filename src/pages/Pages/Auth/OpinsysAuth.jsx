@@ -89,7 +89,7 @@ async function login(jwt) {
       }
     }
     doIt();
-  })
+  }, [])
   const form = <>
     <p>{message}</p>
   </>;

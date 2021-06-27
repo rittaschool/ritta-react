@@ -2340,6 +2340,12 @@ h6 .badge {
   font-weight: 700;
 }
 
+@media (min-width: 575.99px) {
+  .navbar-brand img {
+    filter: brightness(0) invert(1);
+  }
+}
+
 .navbar .form-inline .form-control {
   background-color: #fff;
   border-color: transparent;
