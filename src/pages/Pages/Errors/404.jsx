@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import globalData from '../../../config.json';
 
 export class Error404 extends Component {
   render() {
@@ -11,35 +12,17 @@ export class Error404 extends Component {
               <div class="page-inner">
                 <h1>404</h1>
                 <div class="page-description">
-                  The page you were looking for could not be found.
+                  Sivua ei löytynyt
                 </div>
                 <div class="page-search">
-                  <form>
-                    <div class="form-group floating-addon floating-addon-not-append">
-                      <div class="input-group">
-                        <div class="input-group-prepend">
-                          <div class="input-group-text">
-                            <i class="fas fa-search"></i>
-                          </div>
-                        </div>
-                        <input
-                          type="text"
-                          class="form-control"
-                          placeholder="Search"
-                        />
-                        <div class="input-group-append">
-                          <button class="btn btn-primary btn-lg">Search</button>
-                        </div>
-                      </div>
-                    </div>
-                  </form>
                   <div class="mt-3">
-                    <Link to="/">Back to Home</Link>
+                    <Link to="/">Takaisin etusivulle</Link>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="simple-footer mt-5">Copyright &copy; Stisla 2018</div>
+            <div class="simple-footer mt-5">Copyright &copy; <a href="https://ritta.pw">Ritta</a> 2021</div>
+
           </div>
         </section>
       </div>

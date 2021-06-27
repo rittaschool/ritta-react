@@ -109,7 +109,6 @@ require("chocolat/dist/js/jquery.chocolat.min.js");
 require("bootstrap-daterangepicker/daterangepicker.js");
 require("bootstrap-colorpicker/dist/js/bootstrap-colorpicker.min.js");
 require("bootstrap-timepicker/js/bootstrap-timepicker.min.js");
-require("./js/js/scripts");
 require("./js/js/custom");
 require("./js/js/stisla");
 

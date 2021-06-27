@@ -6,9 +6,9 @@ import { Link } from "react-router-dom";
 const config = require('../../config.json')
 function Account({ name, description, id }) {
   return ( 
-    <div class="col-12 col-md-6 col-lg-6">
-      <div class="card card-primary">
-        <div class="card-header">
+    <div className="col-12 col-md-6 col-lg-6">
+      <div className="card card-primary">
+        <div className="card-header">
           <Link
             onClick={() => {
               localStorage.setItem('currentUser', id);
@@ -16,10 +16,10 @@ function Account({ name, description, id }) {
             }}
           ><h4>{name}</h4></Link>
         </div>
-        <div class="card-body">
+        <div className="card-body">
           <p>{description}</p>
-          <div class="text-right">
-            <Link class="btn btn-primary" onClick={() => {
+          <div className="text-right">
+            <Link className="btn btn-primary" onClick={() => {
               localStorage.setItem('currentUser', id);
               window.location.href = '/home'
             }}accounts>Valitse käyttäjä</Link>
@@ -32,7 +32,6 @@ function Account({ name, description, id }) {
 
 function Accounts() {
   const [accounts, setAccounts] = React.useState([]);
-
   const getAccounts = () => {
     if (!localStorage.getItem('access')) {
       window.location.reload();
@@ -55,7 +54,7 @@ function Accounts() {
   return (
     <>
     {accounts.map((item)=>{
-      return <Account name={`${item.lastName} ${item.firstName}`} id={item.id} description={`Rooli ${item.userType}`}/>
+      return <Account name={`${item.lastName} ${item.firstName}`} key={item.id} description={`Rooli ${item.userType}`}/>
     })}
     </>
   )
@@ -70,7 +69,7 @@ export class Home extends Component {
         <Header />
         <div className="main-content">
           <section className="section">
-            <div class="row">
+            <div className="row">
               <Accounts />
             </div>
           </section>

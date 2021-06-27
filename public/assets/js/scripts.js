@@ -53,7 +53,7 @@ $('[data-confirm]').each(function () {
 });
 
 // Global
-$(function () {
+function runScripts() {
   let sidebar_nicescroll_opts = {
       cursoropacitymin: 0,
       cursoropacitymax: .8,
@@ -620,4 +620,4 @@ $(function () {
       }
     });
   }
-});
+};

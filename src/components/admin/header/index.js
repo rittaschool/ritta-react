@@ -1,35 +1,45 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
-import { searchResultData, userDetail } from "./Data";
+import { searchResultData } from "./Data";
 import Search from "./Search";
 import UserDropdown from "./UserDropdown";
+import axios from 'axios';
+import config from '../../../config.json'
 // import Auth from '../../../../config/auth';
+import runScripts from '../../../js/js/scripts';
 
 const Header = () => {
+  const [userDetail, setUserDetail] = React.useState("");
+
+  const getData = async () => {
+    const res = await axios.post(`${config.apiBase}/api/v1/user/info`, {}, {
+      headers : { 
+        'Content-Type': 'application/json',
+        'Accept': 'application/json',
+        'Authorization': `Bearer ${localStorage.getItem('access')}`
+      }
+    })
+    setUserDetail(res.data)
+  }
+
+  React.useEffect(()=>{
+    getData()
+  },[]);
+
   return (
     <div>
       <div className="navbar-bg"></div>
       <nav className="navbar navbar-expand-lg main-navbar">
         <a href="/" className="navbar-brand sidebar-gone-hide">
-          <img src={require('../../../assets/ritta-white.png')} height={50} alt="Ritta logo" />
+          <img onLoad={() => {runScripts()}} src={require('../../../assets/ritta-white.png')} height={50} alt="Ritta logo" />
         </a>
         <div className="navbar-nav">
-          <a href="/" className="nav-link sidebar-gone-show" data-toggle="sidebar"><i className="fas fa-bars"></i></a>
-        </div>
-        <div className="nav-collapse">
-          <a className="sidebar-gone-show nav-collapse-toggle nav-link" href="/">
-            <i className="fas fa-ellipsis-v"></i>
-          </a>
-          <ul className="navbar-nav">
-            <li className="nav-item active"><a href="/" className="nav-link">Ruokalista</a></li>
-            <li className="nav-item"><a href="/" className="nav-link">Ulkoinen linkki 2</a></li>
-            <li className="nav-item"><a href="/" className="nav-link">Ulkoinen linkki 3</a></li>
-          </ul>
+          <a href="#" className="nav-link sidebar-gone-show" data-toggle="sidebar"><i className="fas fa-bars"></i></a>
         </div>
         <form className="form-inline ml-auto">
           <ul className="navbar-nav">
-            <li><a href="/" data-toggle="search" className="nav-link nav-link-lg d-sm-none"><i className="fas fa-search"></i></a></li>
+            <li><a href="#" data-toggle="search" className="nav-link nav-link-lg d-sm-none"><i className="fas fa-search"></i></a></li>
           </ul>
           <Search searchResultData={searchResultData} />
         </form>
@@ -42,7 +52,7 @@ const Header = () => {
         <div className="container">
           <ul className="navbar-nav">
             <li className="nav-item dropdown">
-              <a href="/" data-toggle="dropdown" className="nav-link has-dropdown"><i className="fas fa-fire"></i><span>Dashboard</span></a>
+              <a data-toggle="dropdown" className="nav-link has-dropdown"><i className="fas fa-fire"></i><span>Ritta</span></a>
               <ul className="dropdown-menu">
                 <li className="nav-item"><a href="index-0.html" className="nav-link">General Dashboard</a></li>
                 <li className="nav-item"><a href="index.html" className="nav-link">Ecommerce Dashboard</a></li>

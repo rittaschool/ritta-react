@@ -1,43 +1,43 @@
 import React, { Component } from "react";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export class UserDropdown extends Component {
   render() {
     const { userDetail } = this.props;
     return (
+      Object.keys(userDetail).length === 0 ? <></> :
       <li className="dropdown">
         <a
           href="/"
           data-toggle="dropdown"
           className="nav-link dropdown-toggle nav-link-lg nav-link-user"
         >
-          <img
-            alt="user profile pic"
-            src={userDetail.userImg}
-            className="rounded-circle mr-1"
-          />
           <div className="d-sm-none d-lg-inline-block">
-            Hi, {userDetail.userName}
+            {userDetail.user.firstName} {userDetail.user.lastName}
           </div>
         </a>
         <div className="dropdown-menu dropdown-menu-right">
           <div className="dropdown-title">
-            Logged in {userDetail.logTime} ago
+            Pikavaihda käyttäjää
           </div>
 
-          {userDetail.datas.map((data, idata) => {
+          {userDetail.accounts.map((data, idata) => {
             return (
-              <NavLink
+              <Link
                 key={idata}
-                to={data.link}
+                onClick={() => {
+                  localStorage.setItem('currentUser', data.id)
+                  window.location.replace('/home')
+                }}
+                to="#"
                 activeStyle={{
                   color: "#20bba6",
                 }}
                 exact
                 className="dropdown-item has-icon"
               >
-                <i className={data.icode} /> {data.title}
-              </NavLink>
+                <i className="far fa-user"></i> {data.firstName} {data.lastName}
+              </Link>
             );
           })}
 
@@ -45,13 +45,12 @@ export class UserDropdown extends Component {
           <a
             href="/"
             className="dropdown-item has-icon text-danger"
-            // onClick={() => {
-            //   Auth.logout(() => {
-            //     window.location.reload();
-            //   });
-            // }}
+            onClick={() => {
+              localStorage.clear();
+              window.location.reload();
+            }}
           >
-            <i className={userDetail.logoutIcon} /> {userDetail.logoutTitle}
+            <i className='fas fa-sign-out-alt' /> Kirjaudu ulos
           </a>
         </div>
       </li>

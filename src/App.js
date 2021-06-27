@@ -52,7 +52,6 @@ function App() {
   return loggedIn == null ? <> </> : (
     <div className="main-wrapper container">
       <>
-
         {loggedIn ? <React.Suspense fallback={<h1>Ladataan...</h1>}>
         <Switch history={history}>
           <Route path="/" exact component={Home} />
